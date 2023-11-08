@@ -3,6 +3,7 @@ using GameDataParser.Models;
 using Microsoft.Extensions.Options;
 using OneOf;
 using OneOf.Types;
+using SatisfactoryManager.Module.Core.Arguments;
 using SatisfactoryManager.Module.Core.Models.Dto;
 using SatisfactoryManager.Module.Core.Models.Json;
 using YamlDotNet.Serialization;
@@ -51,7 +52,7 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         var buildingsFile = new FileInfo(Path.Combine(directory.FullName, "buildings.yaml"));
         await File.WriteAllTextAsync(
             buildingsFile.FullName,
-            _serializer.Serialize(buildings),
+            _serializer.Serialize(buildings.ToDictionary(i => i.ClassName)),
             cancellationToken);
 
         return new Success();
@@ -70,7 +71,7 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         var itemsFile = new FileInfo(Path.Combine(directory.FullName, "items.yaml"));
         await File.WriteAllTextAsync(
             itemsFile.FullName,
-            _serializer.Serialize(items),
+            _serializer.Serialize(items.ToDictionary(i => i.ClassName)),
             cancellationToken);
 
         return new Success();

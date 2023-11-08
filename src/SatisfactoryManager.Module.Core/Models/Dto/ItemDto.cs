@@ -1,7 +1,9 @@
+using YamlDotNet.Serialization;
+
 namespace SatisfactoryManager.Module.Core.Models.Dto;
 
 public record ItemDto(
-    string ClassName,
+    [property: YamlIgnore] string ClassName,
     string Name,
     double? EnergyValue,
     RecipeDto? Recipe,

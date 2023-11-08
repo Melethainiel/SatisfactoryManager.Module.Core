@@ -1,6 +1,6 @@
 ﻿using CommandLine;
 
-namespace SatisfactoryManager.Module.Core;
+namespace SatisfactoryManager.Module.Core.Arguments;
 
 public sealed class ToolArguments
 {

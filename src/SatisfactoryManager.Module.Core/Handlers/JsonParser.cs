@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Options;
 using OneOf;
 using OneOf.Types;
+using SatisfactoryManager.Module.Core.Arguments;
 using SatisfactoryManager.Module.Core.Models.Json;
 
 namespace SatisfactoryManager.Module.Core.Handlers;

@@ -8,43 +8,46 @@ public sealed class GameDataBuilder
     private static GameDataBuilder? _instance;
 
     private static readonly string[] ManufacturerClassNames =
-    {
-        "Class'/Script/FactoryGame.FGBuildableManufacturer'",
-        "Class'/Script/FactoryGame.FGBuildableManufacturerVariablePower'"
-    };
+    [
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableManufacturer'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableManufacturerVariablePower'"
+    ];
 
     private static readonly string[] GeneratorClassNames =
-    {
-        "Class'/Script/FactoryGame.FGBuildableGeneratorFuel'",
-        "Class'/Script/FactoryGame.FGBuildableGeneratorNuclear'"
-    };
+    [
+       "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableGeneratorFuel'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableGeneratorNuclear'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableGeneratorGeoThermal'"
+    ];
 
     private static readonly string[] MinerClassNames =
-    {
-        "Class'/Script/FactoryGame.FGBuildableResourceExtractor'",
-        "Class'/Script/FactoryGame.FGBuildableWaterPump'",
-        "Class'/Script/FactoryGame.FGBuildableFrackingExtractor'",
-        "Class'/Script/FactoryGame.FGBuildableFrackingActivator'"
-    };
+    [
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableResourceExtractor'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableFrackingExtractor'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableWaterPump'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGBuildableFrackingActivator'",
+    ];
 
     private static readonly string[] ItemClassNames =
-    {
-        "Class'/Script/FactoryGame.FGItemDescriptor'",
-        "Class'/Script/FactoryGame.FGResourceDescriptor'",
-        "Class'/Script/FactoryGame.FGItemDescriptorBiomass'",
-        "Class'/Script/FactoryGame.FGItemDescAmmoTypeColorCartridge'",
-        "Class'/Script/FactoryGame.FGItemDescriptorNuclearFuel'"
-    };
+    [
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGResourceDescriptor'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGItemDescriptor'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGItemDescriptorBiomass'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGAmmoTypeProjectile'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGAmmoTypeInstantHit'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGAmmoTypeSpreadshot'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGItemDescriptorNuclearFuel'",
+    ];
 
     private static readonly string[] ResourcesClassNames =
-    {
-        "Class'/Script/FactoryGame.FGResourceDescriptor'"
-    };
+    [
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGResourceDescriptor'",
+    ];
 
     private static readonly string[] RecipesClassNames =
-    {
-        "Class'/Script/FactoryGame.FGRecipe'"
-    };
+    [
+ "/Script/CoreUObject.Class'/Script/FactoryGame.FGRecipe'"   
+  ];
 
 
     private readonly JsonSerializerOptions _options = new()

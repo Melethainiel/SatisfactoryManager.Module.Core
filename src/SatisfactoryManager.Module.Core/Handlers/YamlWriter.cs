@@ -52,7 +52,7 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         var buildingsFile = new FileInfo(Path.Combine(directory.FullName, "buildings.yaml"));
         await File.WriteAllTextAsync(
             buildingsFile.FullName,
-            _serializer.Serialize(buildings.ToDictionary(i => i.ClassName)),
+            _serializer.Serialize(buildings),
             cancellationToken);
 
         return new Success();
@@ -71,7 +71,7 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         var itemsFile = new FileInfo(Path.Combine(directory.FullName, "items.yaml"));
         await File.WriteAllTextAsync(
             itemsFile.FullName,
-            _serializer.Serialize(items.ToDictionary(i => i.ClassName)),
+            _serializer.Serialize(items),
             cancellationToken);
 
         return new Success();

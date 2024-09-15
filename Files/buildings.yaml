@@ -1,0 +1,108 @@
+- className: Build_GeneratorCoal_C
+  name: Coal-Powered Generator
+  energyConsumption: 0
+  energyProduction: 75
+  supplementalLoadAmount: 1000
+  type: Generator
+- className: Build_GeneratorFuel_C
+  name: Fuel-Powered Generator
+  energyConsumption: 0
+  energyProduction: 250
+  supplementalLoadAmount: 0
+  type: Generator
+- className: Build_GeneratorBiomass_Automated_C
+  name: Biomass Burner
+  energyConsumption: 0
+  energyProduction: 30
+  supplementalLoadAmount: 0
+  type: Generator
+- className: Build_GeneratorNuclear_C
+  name: Nuclear Power Plant
+  energyConsumption: 0
+  energyProduction: 2500
+  supplementalLoadAmount: 10000
+  type: Generator
+- className: Build_GeneratorGeoThermal_C
+  name: Geothermal Generator
+  energyConsumption: 0
+  energyProduction: 0
+  type: Generator
+- className: Build_OilRefinery_C
+  name: Refinery
+  energyConsumption: 30
+  type: Constructor
+- className: Build_FoundryMk1_C
+  name: Foundry
+  energyConsumption: 16
+  type: Constructor
+- className: Build_Packager_C
+  name: Packager
+  energyConsumption: 10
+  type: Constructor
+- className: Build_ManufacturerMk1_C
+  name: Manufacturer
+  energyConsumption: 55
+  type: Constructor
+- className: Build_AssemblerMk1_C
+  name: Assembler
+  energyConsumption: 15
+  type: Constructor
+- className: Build_Blender_C
+  name: Blender
+  energyConsumption: 75
+  type: Constructor
+- className: Build_SmelterMk1_C
+  name: Smelter
+  energyConsumption: 4
+  type: Constructor
+- className: Build_ConstructorMk1_C
+  name: Constructor
+  energyConsumption: 4
+  type: Constructor
+- className: Build_QuantumEncoder_C
+  name: Quantum Encoder
+  energyConsumption: 2000
+  type: Constructor
+- className: Build_Converter_C
+  name: Converter
+  energyConsumption: 400
+  type: Constructor
+- className: Build_HadronCollider_C
+  name: Particle Accelerator
+  energyConsumption: 1500
+  type: Constructor
+- className: Build_OilPump_C
+  name: Oil Extractor
+  output: 120
+  energyConsumption: 40
+  type: Miner
+- className: Build_MinerMk2_C
+  name: Miner Mk.2
+  output: 120
+  energyConsumption: 15
+  type: Miner
+- className: Build_MinerMk1_C
+  name: Miner Mk.1
+  output: 60
+  energyConsumption: 5
+  type: Miner
+- className: Build_MinerMk3_C
+  name: Miner Mk.3
+  output: 240
+  energyConsumption: 45
+  type: Miner
+- className: Build_FrackingExtractor_C
+  name: Resource Well Extractor
+  output: 60
+  energyConsumption: 0
+  type: Miner
+- className: Build_WaterPump_C
+  name: Water Extractor
+  output: 120
+  energyConsumption: 20
+  type: Miner
+- className: Build_FrackingSmasher_C
+  name: Resource Well Pressurizer
+  output: 0
+  energyConsumption: 150
+  type: Miner

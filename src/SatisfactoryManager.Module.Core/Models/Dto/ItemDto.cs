@@ -1,10 +1,8 @@
-using YamlDotNet.Serialization;
-
 namespace SatisfactoryManager.Module.Core.Models.Dto;
 
 public record ItemDto(
     string ClassName,
-    string Name,
-    double? EnergyValue,
-    RecipeDto? Recipe,
-    string? AlternativeOf);
+    string DisplayName,
+    string? Description,
+    string Form,
+    double? EnergyValue);

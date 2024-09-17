@@ -1,7 +1,9 @@
 namespace SatisfactoryManager.Module.Core.Models.Dto;
 
 public record RecipeDto(
-    int Time,
-    RecipePartDto[]? Inputs,
-    RecipePartDto[]? Outputs,
+    string ClassName,
+    string DisplayName,
+    int ManufactoringDuration,
+    RecipePartDto[]? Ingredients,
+    RecipePartDto[]? Products,
     string[]? CraftedIn);

@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography;
-using CommandLine;
-using SatisfactoryManager.Module.Core;
+﻿using SatisfactoryManager.Module.Core;
 using SatisfactoryManager.Module.Core.Handlers;
 using Microsoft.Extensions.DependencyInjection;
 using SatisfactoryManager.Module.Core.Arguments;

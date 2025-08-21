@@ -1,0 +1,815 @@
+- className: Desc_OreIron_C
+  displayName: Iron Ore
+  description: Used for crafting.The most essential basic resource.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Coal_C
+  displayName: Coal
+  description: Mainly used as fuel for vehicles & Coal-Powered Generators, or in Steel production.
+  form: RF_SOLID
+  energyValue: 0.3
+- className: Desc_Water_C
+  displayName: Water
+  description: It's water.
+  form: RF_LIQUID
+  energyValue: 0
+- className: Desc_NitrogenGas_C
+  displayName: Nitrogen Gas
+  description: Has a variety of uses, including metallurgy, cooling, and Nitric Acid production. On MASSAGE-2 (AB)b, it can be extracted from underground gas wells.
+  form: RF_GAS
+  energyValue: 0
+- className: Desc_Sulfur_C
+  displayName: Sulfur
+  description: Primarily used to produce Black Powder.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SAM_C
+  displayName: SAM
+  description: Strange Alien Matter, commonly referred to as SAM, doesn't seem to follow the known laws of physics. It whispers of new possibilities.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_OreBauxite_C
+  displayName: Bauxite
+  description: Used to produce Alumina, which can be further refined into the Aluminum Scrap required to produce Aluminum Ingots.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_OreGold_C
+  displayName: Caterium Ore
+  description: Smelted into Caterium Ingots, which are primarily used for advanced electronics.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_OreCopper_C
+  displayName: Copper Ore
+  description: Used for crafting.A basic resource primarily used for electricity.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_RawQuartz_C
+  displayName: Raw Quartz
+  description: Can be processed into Quartz Crystals and Silica, which both offer a variety of applications.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Stone_C
+  displayName: Limestone
+  description: Used for crafting.A basic resource primarily used for stable Foundations.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_OreUranium_C
+  displayName: Uranium
+  description: 'A radioactive element. Used to produce Encased Uranium Cells for Uranium Fuel Rods.Caution: Moderately Radioactive.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_LiquidOil_C
+  displayName: Crude Oil
+  description: Refined into all kinds of Oil-based resources, like Fuel and Plastic.
+  form: RF_LIQUID
+  energyValue: 0.32
+- className: Desc_NuclearWaste_C
+  displayName: Uranium Waste
+  description: 'The by-product of consuming Uranium Fuel Rods in a Nuclear Power Plant.Non-Fissile Uranium can be extracted. Handle with caution.Caution: HIGHLY Radioactive.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_PlutoniumWaste_C
+  displayName: Plutonium Waste
+  description: 'The by-product of consuming Plutonium Fuel Rods in a Nuclear Power Plant.Must be stored in a safe location. Handle with caution.Caution: EXTREMELY Radioactive.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Cement_C
+  displayName: Concrete
+  description: Used for building.Good for stable Foundations.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Silica_C
+  displayName: Silica
+  description: Derived from Raw Quartz. Commonly used to create glass structures, in advanced refinement processes, and for alternative production of electronics.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_IronPlate_C
+  displayName: Iron Plate
+  description: Used for crafting.One of the most basic parts.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SteelPlate_C
+  displayName: Steel Beam
+  description: Primarily used when constructing slightly more advanced buildings.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_AluminumIngot_C
+  displayName: Aluminum Ingot
+  description: Smelted from Aluminum Scrap, which is refined from Alumina Solution.Used to produce specialized aluminum-based parts.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Battery_C
+  displayName: Battery
+  description: Primarily used as fuel for Drones and vehicles.
+  form: RF_SOLID
+  energyValue: 6
+- className: Desc_Fuel_C
+  displayName: Packaged Fuel
+  description: Fuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack.
+  form: RF_SOLID
+  energyValue: 0.75
+- className: Desc_PackagedIonizedFuel_C
+  displayName: Packaged Ionized Fuel
+  description: Ionized Fuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack.
+  form: RF_SOLID
+  energyValue: 10
+- className: Desc_PackagedRocketFuel_C
+  displayName: Packaged Rocket Fuel
+  description: Rocket Fuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack.
+  form: RF_SOLID
+  energyValue: 7.2
+- className: Desc_TurboFuel_C
+  displayName: Packaged Turbofuel
+  description: Turbofuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack.
+  form: RF_SOLID
+  energyValue: 2
+- className: Desc_HazmatFilter_C
+  displayName: Iodine-Infused Filter
+  description: Absorbs radioactive particles when used with the Hazmat Suit.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_CompactedCoal_C
+  displayName: Compacted Coal
+  description: A much more efficient alternative to Coal. Used as fuel for vehicles and Coal-Powered Generators.
+  form: RF_SOLID
+  energyValue: 0.63
+- className: Desc_PackagedOilResidue_C
+  displayName: Packaged Heavy Oil Residue
+  description: Heavy Oil Residue, packaged for alternative transport. Can be used as fuel for vehicles.
+  form: RF_SOLID
+  energyValue: 0.4
+- className: Desc_PetroleumCoke_C
+  displayName: Petroleum Coke
+  description: Used for crafting.A carbon-rich material distilled from Heavy Oil Residue. Used as a less efficient Coal replacement.
+  form: RF_SOLID
+  energyValue: 0.18
+- className: Desc_PackagedOil_C
+  displayName: Packaged Oil
+  description: Crude Oil, packaged for alternative transport. Can be used as fuel for vehicles.
+  form: RF_SOLID
+  energyValue: 0.32
+- className: Desc_IronRod_C
+  displayName: Iron Rod
+  description: Used for crafting.One of the most basic parts.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Wire_C
+  displayName: Wire
+  description: Used for crafting.One of the most basic parts.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Cable_C
+  displayName: Cable
+  description: Used for crafting.Primarily used to build Power Lines.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_IronIngot_C
+  displayName: Iron Ingot
+  description: Used for crafting the most basic parts.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_IronPlateReinforced_C
+  displayName: Reinforced Iron Plate
+  description: Used for crafting.A sturdier and more durable Iron Plate.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Rotor_C
+  displayName: Rotor
+  description: Used for crafting.The moving parts of a motor.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_LiquidFuel_C
+  displayName: Fuel
+  description: Can be used as-is to generate power, or packaged to be used as fuel for vehicles or the Jetpack.
+  form: RF_LIQUID
+  energyValue: 0.75
+- className: Desc_RocketFuel_C
+  displayName: Rocket Fuel
+  description: A high-impulse compressed gas fuel.Can be used as-is to power Fuel-Powered Generators, or packaged to be used as fuel for vehicles or the Jetpack.
+  form: RF_GAS
+  energyValue: 3.6
+- className: Desc_CopperSheet_C
+  displayName: Copper Sheet
+  description: Used for crafting.Primarily used for Pipelines due to its high corrosion resistance.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_ModularFrame_C
+  displayName: Modular Frame
+  description: Used for crafting.A multipurpose building block.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_IronScrew_C
+  displayName: Screw
+  description: Used for crafting.One of the most basic parts.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_NitricAcid_C
+  displayName: Nitric Acid
+  description: Produced when Nitrogen Gas reacts with Water. Its high corrosiveness and oxidizing properties make it an excellent choice for refinement and fuel production processes.
+  form: RF_LIQUID
+  energyValue: 0
+- className: Desc_LiquidTurboFuel_C
+  displayName: Turbofuel
+  description: A more efficient alternative to Fuel. Can be used as-is to generate power, or packaged to be used as fuel for vehicles.
+  form: RF_LIQUID
+  energyValue: 2
+- className: Desc_GasTank_C
+  displayName: Empty Fluid Tank
+  description: Used to package gases and volatile liquids for transportation.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_CrystalOscillator_C
+  displayName: Crystal Oscillator
+  description: An electronic oscillator circuit that uses the mechanical resonance of a vibrating crystal to create an electrical signal with a precise frequency.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Motor_C
+  displayName: Motor
+  description: Creates a mechanical force that is used to move things from machines to vehicles.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_DarkMatter_C
+  displayName: Dark Matter Crystal
+  description: 'Concentrated Dark Matter Residue that is isolated within a crystalline vessel. This form of containment allows for utilising Dark Matter reliably in other production processes.Power Usage: 500-1500 MW (1000 MW average).'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_IonizedFuel_C
+  displayName: Ionized Fuel
+  description: Fuel that has been ionized, allowing it to deliver incredible output.Can be used as-is to power Fuel-Powered Generators, or packaged to be used as fuel for vehicles or the Jetpack.
+  form: RF_GAS
+  energyValue: 5
+- className: Desc_ComputerSuper_C
+  displayName: Supercomputer
+  description: The next-gen version of a Computer.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_CoolingSystem_C
+  displayName: Cooling System
+  description: Keeps advanced parts and buildings from exceeding efficient temperature levels.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_FicsiteMesh_C
+  displayName: Ficsite Trigon
+  description: The Ficsite Trigon, made from Ficsite Ingots, is perfectly shaped for all construction challenges. It's performance is so exceptional, it basically solved structural engineering.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_MotorLightweight_C
+  displayName: Turbo Motor
+  description: A more complex and powerful version of the regular Motor.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_TimeCrystal_C
+  displayName: Time Crystal
+  description: Time Crystals are Diamonds that have been reconfigured on a sub-atomic level in the Converter to retain a time-periodic self-organizing structure. This allows them to be used in the development of quantum processing and storage technologies.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_DarkEnergy_C
+  displayName: Dark Matter Residue
+  description: Produced as a by-product of Quantum Encoding processes and alternatively generated in the Converter.Various fields of science are still debating the nature and properties of Dark Matter. Meanwhile, FICSIT has found several applications for it in space-time manipulation.
+  form: RF_GAS
+  energyValue: 0
+- className: Desc_SAMIngot_C
+  displayName: Reanimated SAM
+  description: The active and contained form of the Strange Alien Matter.Proper electromagnetic containment is required, as it appears to be able to manipulate the atomic bonds of any matter it comes into contact with.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_QuantumEnergy_C
+  displayName: Excited Photonic Matter
+  description: Excited Photonic Matter is essential for all production processes in the Quantum Encoder.Formed in the Converter by inducing intense photon interactions through exposure to SAM in a high-energy environment.
+  form: RF_GAS
+  energyValue: 0
+- className: Desc_Diamond_C
+  displayName: Diamonds
+  description: 'Synthetic Diamonds produced by exposing Coal to extreme heat and pressure.Used in the production of Time Crystals and Dark Matter Crystals.Power Usage: 250-750 MW (500 MW average).'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_AluminumPlate_C
+  displayName: Alclad Aluminum Sheet
+  description: Used to make products that require high heat conduction or a high specific strength. Thin, lightweight, and highly durable.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_QuantumOscillator_C
+  displayName: Superposition Oscillator
+  description: An oscillator circuit that uses the mechanical resonance of a vibrating crystal to create a string vibration with a precise frequency. Often used in teleportation technology and dimensional manipulation.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_TemporalProcessor_C
+  displayName: Neural-Quantum Processor
+  description: The Neural-Quantum Processor utilizes a combination of neural network architecture and quantum computing techniques to achieve unprecedented performance. This technology has enabled some of FICSIT's biggest advancements in artificial intelligence and relativistic engineering.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_12_C
+  displayName: AI Expansion Server
+  description: 'Project Part #12. Ship via the Space Elevator to complete phases of Project Assembly.Power Usage: 1500-2500 MW (2000 MW average).Growth is the metric by which we measure success.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_6_C
+  displayName: Magnetic Field Generator
+  description: 'Project Part #7. Ship via the Space Elevator to complete phases of Project Assembly.These modular generators use superconducting magnets and vast amounts of electricity to produce a powerful and easily expandable magnetic field.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SAMFluctuator_C
+  displayName: SAM Fluctuator
+  description: The SAM Fluctuator is able to regulate and direct the behaviour of Reanimated SAM through the application of electric charges with varying frequencies.This control facilitates technologies such as matter-to-energy conversion and spatiotemporal matter manipulation.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SteelPipe_C
+  displayName: Steel Pipe
+  description: Primarily used when constructing slightly more advanced buildings.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_ModularFrameFused_C
+  displayName: Fused Modular Frame
+  description: A corrosion-resistant, nitride-hardened, highly-robust-yet-lightweight modular frame.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_ModularFrameLightweight_C
+  displayName: Radio Control Unit
+  description: Enhances and directs radio signals.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_FicsiteIngot_C
+  displayName: Ficsite Ingot
+  description: Produced by reconstructing other metals on a molecular level using Strange Alien Matter.Synthesized by FICSIT to be the perfect construction material, and used in the most high-end processes.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_10_C
+  displayName: Biochemical Sculptor
+  description: 'Project Part #10. Ship via the Space Elevator to complete phases of Project Assembly.Years ahead of the competition, this top-of-the-line 3D printer is used for the production of synthetic biological resources.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_7_C
+  displayName: Assembly Director System
+  description: 'Project Part #6. Ship via the Space Elevator to complete phases of Project Assembly.This extremely fast and precise computing system is specifically designed to direct the Project Assembly: Assembly Phase.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_GoldIngot_C
+  displayName: Caterium Ingot
+  description: Smelted from Caterium Ore. Primarily used for advanced electronics.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_FluidCanister_C
+  displayName: Empty Canister
+  description: Used to package fluids for transportation.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_CircuitBoard_C
+  displayName: Circuit Board
+  description: Advanced electronics that have a plethora of different uses.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Plastic_C
+  displayName: Plastic
+  description: Versatile and easy to manufacture, this material has a wide range of uses.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SteelPlateReinforced_C
+  displayName: Encased Industrial Beam
+  description: Simultaneously utilizes the compressive strength of concrete and the tensile strength of steel.Mostly used as a stable base for constructing buildings.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Rubber_C
+  displayName: Rubber
+  description: A very flexible material that has a lot of friction.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_PolymerResin_C
+  displayName: Polymer Resin
+  description: A by-product of Crude Oil refinement into Fuel. Commonly used to manufacture Plastic and Rubber.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_HeavyOilResidue_C
+  displayName: Heavy Oil Residue
+  description: A by-product of Plastic and Rubber production. Can be further refined into Fuel and Petroleum Coke.
+  form: RF_LIQUID
+  energyValue: 0.4
+- className: Desc_QuartzCrystal_C
+  displayName: Quartz Crystal
+  description: Derived from Raw Quartz. Used in the production of advanced radar technology and high-quality display screens.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SteelIngot_C
+  displayName: Steel Ingot
+  description: Smelted from a combination of Iron Ore and Coal. Can be made into several parts used in building construction.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_2_C
+  displayName: Versatile Framework
+  description: 'Project Part #2. Ship via the Space Elevator to complete phases of Project Assembly.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_PackagedWater_C
+  displayName: Packaged Water
+  description: Water, packaged for alternative transport.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_CopperIngot_C
+  displayName: Copper Ingot
+  description: Used for crafting the most basic parts.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_AluminumScrap_C
+  displayName: Aluminum Scrap
+  description: Refined from Alumina. Can be smelted into Aluminum Ingots for industrial usage.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_AluminumCasing_C
+  displayName: Aluminum Casing
+  description: A versatile container cast from Aluminum Ingots.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_AluminaSolution_C
+  displayName: Alumina Solution
+  description: Dissolved Alumina, extracted from Bauxite. Can be further refined into Aluminum Scrap for Aluminum Ingot production.
+  form: RF_LIQUID
+  energyValue: 0
+- className: Desc_Computer_C
+  displayName: Computer
+  description: A complex logic machine that is used to control advanced behavior in other machines.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_ModularFrameHeavy_C
+  displayName: Heavy Modular Frame
+  description: A more robust multipurpose frame.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_1_C
+  displayName: Smart Plating
+  description: 'Project Part #1. Ship via the Space Elevator to complete phases of Project Assembly.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_HighSpeedConnector_C
+  displayName: High-Speed Connector
+  description: Connects multiple cables and wires in a very efficient way. Uses a standard pattern, so it has many varied applications.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_3_C
+  displayName: Automated Wiring
+  description: 'Project Part #3. Ship via the Space Elevator to complete phases of Project Assembly.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Stator_C
+  displayName: Stator
+  description: Used for crafting.The static parts of a motor.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_CircuitBoardHighSpeed_C
+  displayName: AI Limiter
+  description: Controls AIs and keeps them from evolving in malicious ways. Super advanced electronics.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_HighSpeedWire_C
+  displayName: Quickwire
+  description: Caterium's high conductivity and resistance to corrosion make it ideal for small, advanced electronics.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_4_C
+  displayName: Modular Engine
+  description: 'Project Part #4. Ship via the Space Elevator to complete phases of Project Assembly.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_5_C
+  displayName: Adaptive Control Unit
+  description: 'Project Part #5. Ship via the Space Elevator to complete phases of Project Assembly.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_PressureConversionCube_C
+  displayName: Pressure Conversion Cube
+  description: Converts outgoing force into internal pressure. Required to contain unstable, high-energy matter.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_PlutoniumCell_C
+  displayName: Encased Plutonium Cell
+  description: 'Plutonium Pellets encased in concrete.Used to produce Plutonium Fuel Rods for Nuclear Power production.Caution: Moderately Radioactive.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_PlutoniumPellet_C
+  displayName: Plutonium Pellet
+  description: 'Produced in the Particle Accelerator through conversion of Non-fissile Uranium.Used to produce Encased Plutonium Cells for Plutonium Fuel Rods.Power Usage: 250-750 MW (500 MW average).Caution: Moderately Radioactive.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_NonFissibleUranium_C
+  displayName: Non-Fissile Uranium
+  description: 'The Uranium-238 isotope is non-fissile, meaning it cannot be used for nuclear fission. It can, however, be converted into fissile Plutonium in the Particle Accelerator.Caution: Mildly Radioactive.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SulfuricAcid_C
+  displayName: Sulfuric Acid
+  description: Produced by combining Sulfur and Water in a complex reaction. Primarily used in refinement processes and Battery production.
+  form: RF_LIQUID
+  energyValue: 0
+- className: Desc_CopperDust_C
+  displayName: Copper Powder
+  description: Ground-up Copper Ingots.The high natural density of Copper, combined with the granularity of the powder, makes this part perfect for producing Nuclear Pasta in the Particle Accelerator.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_AluminumPlateReinforced_C
+  displayName: Heat Sink
+  description: Used to dissipate heat faster.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_ElectromagneticControlRod_C
+  displayName: Electromagnetic Control Rod
+  description: Regulates power output via electromagnetism.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_9_C
+  displayName: Nuclear Pasta
+  description: 'Project Part #9. Ship via the Space Elevator to complete phases of Project Assembly.Power Usage: 500-1500 MW (1000 MW average).Nuclear Pasta is extremely dense degenerate matter, formed when extreme pressure forces protons and electrons together into neutrons. It is theorized to exist naturally within the crust of neutron stars.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_UraniumCell_C
+  displayName: Encased Uranium Cell
+  description: 'Used to produce Uranium Fuel Rods for Nuclear Power production. Made from Uranium Ore.Caution: Mildly Radioactive.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_DissolvedSilica_C
+  displayName: Dissolved Silica
+  description: Silica dissolved in Water, produced as part of the alternative refinement of Raw Quartz.The Silica can be extracted from the Water to complete the refinement process.
+  form: RF_LIQUID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_8_C
+  displayName: Thermal Propulsion Rocket
+  description: 'Project Part #8. Ship via the Space Elevator to complete phases of Project Assembly.Uses extreme heat to produce the high-pressure plasma required to get Project Assembly into motion.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Gunpowder_C
+  displayName: Black Powder
+  description: An explosive powder that is commonly used to produce simple explosives.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Ficsonium_C
+  displayName: Ficsonium
+  description: 'Usage and production of this material is strictly prohibited. On Earth, that is. There are no rules in space, only efficiency. Power Usage: 500-1500 MW (1000 MW average).'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SingularityCell_C
+  displayName: Singularity Cell
+  description: Used to break down space and time. Required to power Portals.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpaceElevatorPart_11_C
+  displayName: Ballistic Warp Drive
+  description: 'Project Part #11. Ship via the Space Elevator to complete phases of Project Assembly.Power Usage: 1000-2000 MW (1500 MW average).A large amount of force is required for the Warp Drives to activate, so sticking them to rockets was the logical next step. Additionally, results improved immensely when the observers were further removed from the Warp Drives upon activation.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Filter_C
+  displayName: Gas Filter
+  description: Filters out toxins and pollutants from the air when used with a Gas Mask.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_AlienProtein_C
+  displayName: Alien Protein
+  description: Ground-up Alien Remains in a neat little package.Used for medical purposes and to research alien organisms.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Crystal_C
+  displayName: Blue Power Slug
+  description: A strange slug radiating an unknown weak power.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_AlienDNACapsule_C
+  displayName: Alien DNA Capsule
+  description: Translates organic chemicals into readable alien genetic information.Used for researching alien organisms.Go the extra kilometer! Knowledge is power, and power is just efficiency with fewer steps. Depositing Alien DNA Capsules in the AWESOME Sink provides FICSIT with knowledge, and pioneers with Coupons.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_WAT2_C
+  displayName: Mercer Sphere
+  description: A weird alien phenomenon. While the sphere appears liquid, it behaves like a solid and does not have any detectable mass. It seems to somehow interact with and have awareness of its environment.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Crystal_mk3_C
+  displayName: Purple Power Slug
+  description: A strange slug radiating a powerful unknown power.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Crystal_mk2_C
+  displayName: Yellow Power Slug
+  description: A strange slug radiating an unknown power.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_GunpowderMK2_C
+  displayName: Smokeless Powder
+  description: An explosive powder that is commonly used to produce modern firearms.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Biofuel_C
+  displayName: Solid Biofuel
+  description: The most energy-efficient form of solid Biomass. Can be used as fuel for the Chainsaw.
+  form: RF_SOLID
+  energyValue: 0.45
+- className: Desc_PackagedBiofuel_C
+  displayName: Packaged Liquid Biofuel
+  description: Liquid Biofuel, packaged for alternative transport. Can be used as fuel for vehicles and the Jetpack.
+  form: RF_SOLID
+  energyValue: 0.75
+- className: Desc_GenericBiomass_C
+  displayName: Biomass
+  description: Primarily used as fuel.Biomass Burners and vehicles can use it for power.Biomass is much more energy-efficient than raw biological matter.
+  form: RF_SOLID
+  energyValue: 0.18
+- className: Desc_Leaves_C
+  displayName: Leaves
+  description: Primarily used as fuel.Biomass Burners and vehicles can use Leaves for power.
+  form: RF_SOLID
+  energyValue: 0.015
+- className: Desc_Mycelia_C
+  displayName: Mycelia
+  description: Used for crafting.Biomass Burners and vehicles can also use Mycelia for power.
+  form: RF_SOLID
+  energyValue: 0.02
+- className: Desc_Wood_C
+  displayName: Wood
+  description: Primarily used as fuel.Biomass Burners and vehicles can use Wood for power.
+  form: RF_SOLID
+  energyValue: 0.1
+- className: Desc_LiquidBiofuel_C
+  displayName: Liquid Biofuel
+  description: Liquid Biofuel can be used as-is to generate power, or packaged to be used as fuel for vehicles.
+  form: RF_LIQUID
+  energyValue: 0.75
+- className: Desc_PackagedAlumina_C
+  displayName: Packaged Alumina Solution
+  description: Alumina Solution, packaged for alternative transport.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_PackagedNitrogenGas_C
+  displayName: Packaged Nitrogen Gas
+  description: Nitrogen Gas, packaged for alternative transport.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_PackagedNitricAcid_C
+  displayName: Packaged Nitric Acid
+  description: Nitric Acid, packaged for alternative transport.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_PackagedSulfuricAcid_C
+  displayName: Packaged Sulfuric Acid
+  description: Sulfuric Acid, packaged for alternative transport.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Fabric_C
+  displayName: Fabric
+  description: Used to craft equipment.Flexible but durable fabric.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_HogParts_C
+  displayName: Hog Remains
+  description: The carapace of an alien Hog creature.Used for MAM research.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpitterParts_C
+  displayName: Spitter Remains
+  description: The remains of a plasma-spitting alien creature.Used for MAM research.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_StingerParts_C
+  displayName: Stinger Remains
+  description: The remains of whatever that creepy thing was.Used for MAM research.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_HatcherParts_C
+  displayName: Hatcher Remains
+  description: The shell-like remains of an alien... thing.Used for MAM research.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Rebar_Explosive_C
+  displayName: Explosive Rebar
+  description: Explodes on impact, dealing heavy damage.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Rebar_Stunshot_C
+  displayName: Stun Rebar
+  description: 'Electrocutes the target on impact, stunning it for a short time.Stun Duration: 5 seconds'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_CartridgeSmartProjectile_C
+  displayName: Homing Rifle Ammo
+  description: The bullet guidance system built into this ammunition allows it to accurately hit any target within the reticle area.Especially useful when dealing with agile threats, or for pioneers who can't be bothered to aim properly.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_NobeliskCluster_C
+  displayName: Cluster Nobelisk
+  description: Detonates into multiple smaller explosions. Practical for clearing out large areas of vegetation and other inconveniences.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_NobeliskExplosive_C
+  displayName: Nobelisk
+  description: A simple explosive, useful for clearing boulders, vegetation, and other obstacles.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_NobeliskGas_C
+  displayName: Gas Nobelisk
+  description: Creates a deadly gas cloud instead of a regular explosion.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_NobeliskNuke_C
+  displayName: Nuke Nobelisk
+  description: 'Uses a nuclear fission reaction to generate a massive explosion.WARNING: Ensure all FICSIT property is clear of the blast zone before detonation.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_NobeliskShockwave_C
+  displayName: Pulse Nobelisk
+  description: Generates a powerful shockwave instead of a regular explosion.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SpikedRebar_C
+  displayName: Iron Rebar
+  description: Can be shot using the Rebar Gun for self-defense purposes.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_CartridgeChaos_C
+  displayName: Turbo Rifle Ammo
+  description: Lightweight, compact, and volatile. These rounds provide extreme capacity and rate of fire at the cost of accuracy.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_CartridgeStandard_C
+  displayName: Rifle Ammo
+  description: Standard issue Rifle ammunition, useful for establishing dominance.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Rebar_Spreadshot_C
+  displayName: Shatter Rebar
+  description: Fractures when shot, launching deadly debris with wide spread but limited range.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_NuclearFuelRod_C
+  displayName: Uranium Fuel Rod
+  description: 'Used as fuel for Nuclear Power Plants.Caution: Produces radioactive Uranium Waste when consumed.Caution: Moderately Radioactive.'
+  form: RF_SOLID
+  energyValue: 750
+- className: Desc_PlutoniumFuelRod_C
+  displayName: Plutonium Fuel Rod
+  description: 'Used as fuel for Nuclear Power Plants.Caution: Produces radioactive Plutonium Waste when consumed.Caution: HIGHLY Radioactive.'
+  form: RF_SOLID
+  energyValue: 1500
+- className: Desc_FicsoniumFuelRod_C
+  displayName: Ficsonium Fuel Rod
+  description: 'Used as fuel for Nuclear Power Plants.The power source that put FICSIT on the map. Literally. The crater is still there.Caution: Moderately Radioactive.'
+  form: RF_SOLID
+  energyValue: 150
+- className: Desc_OreIron_C
+  displayName: Iron Ore
+  description: Used for crafting.The most essential basic resource.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Coal_C
+  displayName: Coal
+  description: Mainly used as fuel for vehicles & Coal-Powered Generators, or in Steel production.
+  form: RF_SOLID
+  energyValue: 0.3
+- className: Desc_Water_C
+  displayName: Water
+  description: It's water.
+  form: RF_LIQUID
+  energyValue: 0
+- className: Desc_NitrogenGas_C
+  displayName: Nitrogen Gas
+  description: Has a variety of uses, including metallurgy, cooling, and Nitric Acid production. On MASSAGE-2 (AB)b, it can be extracted from underground gas wells.
+  form: RF_GAS
+  energyValue: 0
+- className: Desc_Sulfur_C
+  displayName: Sulfur
+  description: Primarily used to produce Black Powder.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_SAM_C
+  displayName: SAM
+  description: Strange Alien Matter, commonly referred to as SAM, doesn't seem to follow the known laws of physics. It whispers of new possibilities.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_OreBauxite_C
+  displayName: Bauxite
+  description: Used to produce Alumina, which can be further refined into the Aluminum Scrap required to produce Aluminum Ingots.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_OreGold_C
+  displayName: Caterium Ore
+  description: Smelted into Caterium Ingots, which are primarily used for advanced electronics.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_OreCopper_C
+  displayName: Copper Ore
+  description: Used for crafting.A basic resource primarily used for electricity.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_RawQuartz_C
+  displayName: Raw Quartz
+  description: Can be processed into Quartz Crystals and Silica, which both offer a variety of applications.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_Stone_C
+  displayName: Limestone
+  description: Used for crafting.A basic resource primarily used for stable Foundations.
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_OreUranium_C
+  displayName: Uranium
+  description: 'A radioactive element. Used to produce Encased Uranium Cells for Uranium Fuel Rods.Caution: Moderately Radioactive.'
+  form: RF_SOLID
+  energyValue: 0
+- className: Desc_LiquidOil_C
+  displayName: Crude Oil
+  description: Refined into all kinds of Oil-based resources, like Fuel and Plastic.
+  form: RF_LIQUID
+  energyValue: 0.32

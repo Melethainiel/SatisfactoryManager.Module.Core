@@ -14,5 +14,5 @@ public sealed class ToolArguments
         'o',
         "output",
         HelpText = "Path to the output directory.")]
-    public string OutputDirectoryPath { get; set; } = "Data/Output";
+    public string OutputDirectoryPath { get; set; } = "../../Files";
 }

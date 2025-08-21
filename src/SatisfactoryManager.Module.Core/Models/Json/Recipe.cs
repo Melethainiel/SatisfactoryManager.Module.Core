@@ -34,7 +34,8 @@ public class Recipe
                 for (var index = 0; index < produceIn.Length; index++)
                     produceIn[index] = produceIn[index]
                         .Split('.')
-                        .Last();
+                        .Last()
+                        .Replace("\"","");
 
                 _produceIn = produceIn;
                 return _produceIn;

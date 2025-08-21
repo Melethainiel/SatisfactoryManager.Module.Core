@@ -1,9 +1,9 @@
-﻿using SatisfactoryManager.Module.Core.Mappers;
-using GameDataParser.Models;
+﻿using GameDataParser.Models;
 using Microsoft.Extensions.Options;
 using OneOf;
 using OneOf.Types;
 using SatisfactoryManager.Module.Core.Arguments;
+using SatisfactoryManager.Module.Core.Mappers;
 using SatisfactoryManager.Module.Core.Models.Dto;
 using SatisfactoryManager.Module.Core.Models.Json;
 using YamlDotNet.Serialization;
@@ -21,20 +21,18 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
 
     public async Task<OneOf<Success, Error<string>>> RunAsync(
         GameData data,
-        CancellationToken cancellationToken = default)
+        CancellationToken cancellationToken = default
+    )
     {
         var directory = new DirectoryInfo(arguments.Value.OutputDirectoryPath);
-        if (!directory.Exists) directory.Create();
+        if (!directory.Exists)
+            directory.Create();
 
-        await WriteBuildingsAsync(
-            data,
-            directory,
-            cancellationToken);
+        await WriteBuildingsAsync(data, directory, cancellationToken);
 
-        await WriteItemsAsync(
-            data,
-            directory,
-            cancellationToken);
+        await WriteItemsAsync(data, directory, cancellationToken);
+
+        await WriteRecipesAsync(data, directory, cancellationToken);
 
         return new Success();
     }
@@ -42,7 +40,8 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
     private async Task<OneOf<Success, Error<string>>> WriteBuildingsAsync(
         GameData data,
         DirectoryInfo directory,
-        CancellationToken cancellationToken = default)
+        CancellationToken cancellationToken = default
+    )
     {
         var buildings = new List<BuildingDto>();
         buildings.AddRange(data.GameGenerators.ToDto());
@@ -52,8 +51,9 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         var buildingsFile = new FileInfo(Path.Combine(directory.FullName, "buildings.yaml"));
         await File.WriteAllTextAsync(
             buildingsFile.FullName,
-            _serializer.Serialize(buildings.ToDictionary(i => i.ClassName)),
-            cancellationToken);
+            _serializer.Serialize(buildings),
+            cancellationToken
+        );
 
         return new Success();
     }
@@ -61,7 +61,8 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
     private async Task<OneOf<Success, Error<string>>> WriteItemsAsync(
         GameData data,
         DirectoryInfo directory,
-        CancellationToken cancellationToken = default)
+        CancellationToken cancellationToken = default
+    )
     {
         var items = new List<ItemDto>();
 
@@ -71,8 +72,9 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         var itemsFile = new FileInfo(Path.Combine(directory.FullName, "items.yaml"));
         await File.WriteAllTextAsync(
             itemsFile.FullName,
-            _serializer.Serialize(items.ToDictionary(i => i.ClassName)),
-            cancellationToken);
+            _serializer.Serialize(items),
+            cancellationToken
+        );
 
         return new Success();
     }
@@ -81,25 +83,13 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
     {
         foreach (var gameResource in data.GameResources.Values)
         {
-            var formBuildings = data.GameMiners.Where(i => i.AllowedResourceForms.Contains(gameResource.MForm))
-                .Where(i => !i.AllowedResources.Any() || i.AllowedResources.Contains(gameResource.ClassName))
-                .Select(i => i.ClassName)
-                .ToArray();
-
-
-            var recipe = new RecipeDto(
-                1,
-                null,
-                null,
-                formBuildings);
-
-
             var item = new ItemDto(
                 gameResource.ClassName,
                 gameResource.MDisplayName,
-                gameResource.EnergyValue,
-                recipe,
-                null);
+                gameResource.MDescription.Replace("\r\n", ""),
+                gameResource.MForm,
+                gameResource.EnergyValue
+            );
 
             yield return item;
         }
@@ -107,23 +97,60 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
 
     private static IEnumerable<ItemDto> GetItems(GameData data)
     {
+        foreach (var gameItem in data.GameItems.Values)
+        {
+            yield return new ItemDto(
+                gameItem.ClassName,
+                gameItem.MDisplayName,
+                gameItem.MDescription.Replace("\r\n", ""),
+                gameItem.MForm,
+                gameItem.EnergyValue
+            );
+        }
+    }
+
+    private async Task<OneOf<Success, Error<string>>> WriteRecipesAsync(
+        GameData data,
+        DirectoryInfo directory,
+        CancellationToken cancellationToken = default
+    )
+    {
+        var recipes = new List<RecipeDto>();
+
+        recipes.AddRange(GetRecipes(data));
+
+        var itemsFile = new FileInfo(Path.Combine(directory.FullName, "recipes.yaml"));
+        await File.WriteAllTextAsync(
+            itemsFile.FullName,
+            _serializer.Serialize(recipes),
+            cancellationToken
+        );
+
+        return new Success();
+    }
+
+    private static IEnumerable<RecipeDto> GetRecipes(GameData data)
+    {
         foreach (var recipe in data.GameRecipes)
         {
-            if (!data.GameManufacturers.Any(i => recipe.ProducedIn.Contains(i.ClassName))) continue;
+            if (!data.GameManufacturers.Any(i => recipe.ProducedIn.Contains(i.ClassName)))
+                continue;
 
-            var basicBuildingDtos = data.GameManufacturers
-                .Where(i => recipe.ProducedIn.Any(j => j.Contains(i.ClassName)))
+            var basicBuildingDtos = data
+                .GameManufacturers.Where(i => recipe.ProducedIn.Any(j => j.Contains(i.ClassName)))
                 .Select(i => i.ClassName)
                 .ToArray();
 
             var alternateOf =
-                recipe.Product.FirstOrDefault() is { } prod && data.GameItems.TryGetValue(prod.Name, out var alt)
+                recipe.Product.FirstOrDefault() is { } prod
+                && data.GameItems.TryGetValue(prod.Name, out var alt)
                     ? alt.ClassName
                     : null;
             var isAlternate = recipe.MDisplayName.StartsWith("Alternate: ");
-            
-            var baseItem = data.GameItems.Values.SingleOrDefault(
-                i => i.ClassName == recipe.ClassName || i.ClassName == alternateOf);
+
+            var baseItem = data.GameItems.Values.SingleOrDefault(i =>
+                i.ClassName == recipe.ClassName || i.ClassName == alternateOf
+            );
 
             if (baseItem is null)
             {
@@ -131,39 +158,28 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
                 continue;
             }
 
+            var ingredients = GetRecipeParts(data, recipe, recipe.Ingredients);
 
-            var inputs = GetRecipeParts(
-                data,
-                recipe,
-                recipe.Ingredients);
-
-            var outputs = GetRecipeParts(
-                data,
-                recipe,
-                recipe.Product);
+            var products = GetRecipeParts(data, recipe, recipe.Product);
 
             var recipeDto = new RecipeDto(
-                recipe.ManufactoringDuration,
-                inputs.ToArray(),
-                outputs.ToArray(),
-                basicBuildingDtos);
-
-
-            var item = new ItemDto(
                 recipe.ClassName,
-                recipe.MDisplayName.Replace("Alternate: ", ""),
-                baseItem.EnergyValue,
-                recipeDto,
-                isAlternate ? alternateOf : null);
+                recipe.MDisplayName,
+                recipe.ManufactoringDuration,
+                ingredients.ToArray(),
+                products.ToArray(),
+                basicBuildingDtos
+            );
 
-            yield return item;
+            yield return recipeDto;
         }
     }
 
     private static IEnumerable<RecipePartDto> GetRecipeParts(
         GameData data,
         Recipe recipe,
-        IEnumerable<Ingredient> ingredients)
+        IEnumerable<Ingredient> ingredients
+    )
     {
         foreach (var ingredient in ingredients)
         {
@@ -182,7 +198,8 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
             var amountMultiplier = itemDescription.MForm == "RF_SOLID" ? 60 : 0.06;
             var part = new RecipePartDto(
                 itemPart.ClassName,
-                amountMultiplier * ingredient.Amount / recipe.ManufactoringDuration);
+                amountMultiplier * ingredient.Amount / recipe.ManufactoringDuration
+            );
             yield return part;
         }
     }

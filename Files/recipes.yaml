@@ -1,6 +1,6 @@
 - className: Recipe_IronPlate_C
   displayName: Iron Plate
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_IronIngot_C
     count: 30
@@ -11,7 +11,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_IronRod_C
   displayName: Iron Rod
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_IronIngot_C
     count: 15
@@ -22,7 +22,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_IngotIron_C
   displayName: Iron Ingot
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_OreIron_C
     count: 30
@@ -33,7 +33,7 @@
   - Build_SmelterMk1_C
 - className: Recipe_Alternate_RocketFuel_Nitro_C
   displayName: 'Alternate: Nitro Rocket Fuel'
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_LiquidFuel_C
     count: 120
@@ -52,7 +52,7 @@
   - Build_Blender_C
 - className: Recipe_RocketFuel_C
   displayName: Rocket Fuel
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_LiquidTurboFuel_C
     count: 60
@@ -67,7 +67,7 @@
   - Build_Blender_C
 - className: Recipe_PackagedRocketFuel_C
   displayName: Packaged Rocket Fuel
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_RocketFuel_C
     count: 120
@@ -80,7 +80,7 @@
   - Build_Packager_C
 - className: Recipe_UnpackageRocketFuel_C
   displayName: Unpackage Rocket Fuel
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_PackagedRocketFuel_C
     count: 60
@@ -93,7 +93,7 @@
   - Build_Packager_C
 - className: Recipe_Alternate_IonizedFuel_Dark_C
   displayName: 'Alternate: Dark-Ion Fuel'
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_PackagedRocketFuel_C
     count: 240
@@ -108,7 +108,7 @@
   - Build_Converter_C
 - className: Recipe_DarkEnergy_C
   displayName: Dark Matter Residue
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 50
@@ -119,7 +119,7 @@
   - Build_Converter_C
 - className: Recipe_DarkMatter_C
   displayName: Dark Matter Crystal
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_Diamond_C
     count: 30
@@ -132,7 +132,7 @@
   - Build_HadronCollider_C
 - className: Recipe_SuperpositionOscillator_C
   displayName: Superposition Oscillator
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_DarkMatter_C
     count: 30
@@ -151,7 +151,7 @@
   - Build_QuantumEncoder_C
 - className: Recipe_TemporalProcessor_C
   displayName: Neural-Quantum Processor
-  manufactoringDuration: 20
+  manufacturingDuration: 20
   ingredients:
   - item: Desc_TimeCrystal_C
     count: 15
@@ -170,7 +170,7 @@
   - Build_QuantumEncoder_C
 - className: Recipe_SpaceElevatorPart_12_C
   displayName: AI Expansion Server
-  manufactoringDuration: 15
+  manufacturingDuration: 15
   ingredients:
   - item: Desc_SpaceElevatorPart_6_C
     count: 4
@@ -189,7 +189,7 @@
   - Build_QuantumEncoder_C
 - className: Recipe_IonizedFuel_C
   displayName: Ionized Fuel
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_RocketFuel_C
     count: 40
@@ -202,7 +202,7 @@
   - Build_OilRefinery_C
 - className: Recipe_PackagedIonizedFuel_C
   displayName: Packaged Ionized Fuel
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_IonizedFuel_C
     count: 80
@@ -215,7 +215,7 @@
   - Build_Packager_C
 - className: Recipe_UnpackageIonizedFuel_C
   displayName: Unpackage Ionized Fuel
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_PackagedIonizedFuel_C
     count: 40
@@ -228,7 +228,7 @@
   - Build_Packager_C
 - className: Recipe_Alternate_Diamond_Turbo_C
   displayName: 'Alternate: Turbo Diamonds'
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_Coal_C
     count: 600
@@ -241,7 +241,7 @@
   - Build_HadronCollider_C
 - className: Recipe_SAMFluctuator_C
   displayName: SAM Fluctuator
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 60
@@ -256,7 +256,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_FicsiteMesh_C
   displayName: Ficsite Trigon
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_FicsiteIngot_C
     count: 10
@@ -267,7 +267,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_FicsiteIngot_Iron_C
   displayName: Ficsite Ingot (Iron)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 40
@@ -280,7 +280,7 @@
   - Build_Converter_C
 - className: Recipe_TimeCrystal_C
   displayName: Time Crystal
-  manufactoringDuration: 10
+  manufacturingDuration: 10
   ingredients:
   - item: Desc_Diamond_C
     count: 12
@@ -291,7 +291,7 @@
   - Build_Converter_C
 - className: Recipe_Diamond_C
   displayName: Diamonds
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_Coal_C
     count: 600
@@ -302,7 +302,7 @@
   - Build_HadronCollider_C
 - className: Recipe_IngotSAM_C
   displayName: Reanimated SAM
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_SAM_C
     count: 120
@@ -313,7 +313,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_SpaceElevatorPart_10_C
   displayName: Biochemical Sculptor
-  manufactoringDuration: 120
+  manufacturingDuration: 120
   ingredients:
   - item: Desc_SpaceElevatorPart_7_C
     count: 0.5
@@ -328,7 +328,7 @@
   - Build_Blender_C
 - className: Recipe_FicsiteIngot_AL_C
   displayName: Ficsite Ingot (Aluminum)
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_SAMIngot_C
     count: 60
@@ -341,7 +341,7 @@
   - Build_Converter_C
 - className: Recipe_FicsiteIngot_CAT_C
   displayName: Ficsite Ingot (Caterium)
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_SAMIngot_C
     count: 45
@@ -354,7 +354,7 @@
   - Build_Converter_C
 - className: Recipe_Bauxite_Caterium_C
   displayName: Bauxite (Caterium)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -367,7 +367,7 @@
   - Build_Converter_C
 - className: Recipe_Bauxite_Copper_C
   displayName: Bauxite (Copper)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -380,7 +380,7 @@
   - Build_Converter_C
 - className: Recipe_Caterium_Copper_C
   displayName: Caterium Ore (Copper)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -393,7 +393,7 @@
   - Build_Converter_C
 - className: Recipe_Caterium_Quartz_C
   displayName: Caterium Ore (Quartz)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -406,7 +406,7 @@
   - Build_Converter_C
 - className: Recipe_Coal_Iron_C
   displayName: Coal (Iron)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -419,7 +419,7 @@
   - Build_Converter_C
 - className: Recipe_Coal_Limestone_C
   displayName: Coal (Limestone)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -432,7 +432,7 @@
   - Build_Converter_C
 - className: Recipe_Copper_Quartz_C
   displayName: Copper Ore (Quartz)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -445,7 +445,7 @@
   - Build_Converter_C
 - className: Recipe_Copper_Sulfur_C
   displayName: Copper Ore (Sulfur)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -458,7 +458,7 @@
   - Build_Converter_C
 - className: Recipe_Iron_Limestone_C
   displayName: Iron Ore (Limestone)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -471,7 +471,7 @@
   - Build_Converter_C
 - className: Recipe_Limestone_Sulfur_C
   displayName: Limestone (Sulfur)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -484,7 +484,7 @@
   - Build_Converter_C
 - className: Recipe_Nitrogen_Bauxite_C
   displayName: Nitrogen Gas (Bauxite)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -497,7 +497,7 @@
   - Build_Converter_C
 - className: Recipe_Nitrogen_Caterium_C
   displayName: Nitrogen Gas (Caterium)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -510,7 +510,7 @@
   - Build_Converter_C
 - className: Recipe_Quartz_Bauxite_C
   displayName: Raw Quartz (Bauxite)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -523,7 +523,7 @@
   - Build_Converter_C
 - className: Recipe_Quartz_Coal_C
   displayName: Raw Quartz (Coal)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -536,7 +536,7 @@
   - Build_Converter_C
 - className: Recipe_Sulfur_Coal_C
   displayName: Sulfur (Coal)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -549,7 +549,7 @@
   - Build_Converter_C
 - className: Recipe_Sulfur_Iron_C
   displayName: Sulfur (Iron)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -562,7 +562,7 @@
   - Build_Converter_C
 - className: Recipe_Uranium_Bauxite_C
   displayName: Uranium Ore (Bauxite)
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SAMIngot_C
     count: 10
@@ -575,7 +575,7 @@
   - Build_Converter_C
 - className: Recipe_Alternate_Turbofuel_C
   displayName: Turbofuel
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_LiquidFuel_C
     count: 22.5
@@ -588,7 +588,7 @@
   - Build_OilRefinery_C
 - className: Recipe_PackagedTurboFuel_C
   displayName: Packaged Turbofuel
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_LiquidTurboFuel_C
     count: 20
@@ -601,7 +601,7 @@
   - Build_Packager_C
 - className: Recipe_UnpackageTurboFuel_C
   displayName: Unpackage Turbofuel
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_TurboFuel_C
     count: 20
@@ -614,7 +614,7 @@
   - Build_Packager_C
 - className: Recipe_Alternate_Coal_1_C
   displayName: 'Alternate: Charcoal'
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_Wood_C
     count: 15
@@ -625,7 +625,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_Coal_2_C
   displayName: 'Alternate: Biocoal'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_GenericBiomass_C
     count: 37.5
@@ -636,7 +636,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_EnrichedCoal_C
   displayName: 'Alternate: Compacted Coal'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_Coal_C
     count: 25
@@ -649,7 +649,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_CircuitBoard_C
   displayName: Circuit Board
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_CopperSheet_C
     count: 15
@@ -662,7 +662,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_LiquidFuel_C
   displayName: Fuel
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_LiquidOil_C
     count: 60
@@ -675,7 +675,7 @@
   - Build_OilRefinery_C
 - className: Recipe_PetroleumCoke_C
   displayName: Petroleum Coke
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_HeavyOilResidue_C
     count: 40
@@ -686,7 +686,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Plastic_C
   displayName: Plastic
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_LiquidOil_C
     count: 30
@@ -699,7 +699,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Rubber_C
   displayName: Rubber
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_LiquidOil_C
     count: 30
@@ -712,7 +712,7 @@
   - Build_OilRefinery_C
 - className: Recipe_ResidualFuel_C
   displayName: Residual Fuel
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_HeavyOilResidue_C
     count: 60
@@ -723,7 +723,7 @@
   - Build_OilRefinery_C
 - className: Recipe_ResidualPlastic_C
   displayName: Residual Plastic
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_PolymerResin_C
     count: 60
@@ -736,7 +736,7 @@
   - Build_OilRefinery_C
 - className: Recipe_ResidualRubber_C
   displayName: Residual Rubber
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_PolymerResin_C
     count: 40
@@ -749,7 +749,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_Diamond_Pink_C
   displayName: 'Alternate: Pink Diamonds'
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_Coal_C
     count: 120
@@ -762,7 +762,7 @@
   - Build_Converter_C
 - className: Recipe_Alternate_Diamond_Petroleum_C
   displayName: 'Alternate: Petroleum Diamonds'
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_PetroleumCoke_C
     count: 720
@@ -773,7 +773,7 @@
   - Build_HadronCollider_C
 - className: Recipe_Alternate_Diamond_OilBased_C
   displayName: 'Alternate: Oil-Based Diamonds'
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_LiquidOil_C
     count: 200
@@ -784,7 +784,7 @@
   - Build_HadronCollider_C
 - className: Recipe_Alternate_Diamond_Cloudy_C
   displayName: 'Alternate: Cloudy Diamonds'
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_Coal_C
     count: 240
@@ -797,7 +797,7 @@
   - Build_HadronCollider_C
 - className: Recipe_Alternate_DarkMatter_Trap_C
   displayName: 'Alternate: Dark Matter Trap'
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_TimeCrystal_C
     count: 30
@@ -810,7 +810,7 @@
   - Build_HadronCollider_C
 - className: Recipe_Alternate_DarkMatter_Crystallization_C
   displayName: 'Alternate: Dark Matter Crystallization'
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_DarkEnergy_C
     count: 200
@@ -821,7 +821,7 @@
   - Build_HadronCollider_C
 - className: Recipe_Alternate_WetConcrete_C
   displayName: 'Alternate: Wet Concrete'
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_Stone_C
     count: 120
@@ -834,7 +834,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_TurboHeavyFuel_C
   displayName: 'Alternate: Turbo Heavy Fuel'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_HeavyOilResidue_C
     count: 37.5
@@ -847,7 +847,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_SteelRod_C
   displayName: 'Alternate: Steel Rod'
-  manufactoringDuration: 5
+  manufacturingDuration: 5
   ingredients:
   - item: Desc_SteelIngot_C
     count: 12
@@ -858,7 +858,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_SteelBeam_C
   displayName: Steel Beam
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_SteelIngot_C
     count: 60
@@ -869,7 +869,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_SteelPipe_C
   displayName: Steel Pipe
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SteelIngot_C
     count: 30
@@ -880,7 +880,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_IngotSteel_C
   displayName: Steel Ingot
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_OreIron_C
     count: 45
@@ -893,7 +893,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_SpaceElevatorPart_2_C
   displayName: Versatile Framework
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_ModularFrame_C
     count: 2.5
@@ -906,7 +906,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_SteelCanister_C
   displayName: 'Alternate: Steel Canister'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SteelIngot_C
     count: 40
@@ -917,7 +917,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_FluidCanister_C
   displayName: Empty Canister
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_Plastic_C
     count: 30
@@ -928,7 +928,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Fuel_C
   displayName: Packaged Fuel
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_LiquidFuel_C
     count: 40
@@ -941,7 +941,7 @@
   - Build_Packager_C
 - className: Recipe_LiquidBiofuel_C
   displayName: Liquid Biofuel
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_Biofuel_C
     count: 90
@@ -954,7 +954,7 @@
   - Build_OilRefinery_C
 - className: Recipe_PackagedBiofuel_C
   displayName: Packaged Liquid Biofuel
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_LiquidBiofuel_C
     count: 40
@@ -967,7 +967,7 @@
   - Build_Packager_C
 - className: Recipe_PackagedCrudeOil_C
   displayName: Packaged Oil
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_LiquidOil_C
     count: 30
@@ -980,7 +980,7 @@
   - Build_Packager_C
 - className: Recipe_PackagedOilResidue_C
   displayName: Packaged Heavy Oil Residue
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_HeavyOilResidue_C
     count: 30
@@ -993,7 +993,7 @@
   - Build_Packager_C
 - className: Recipe_PackagedWater_C
   displayName: Packaged Water
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_Water_C
     count: 60
@@ -1006,7 +1006,7 @@
   - Build_Packager_C
 - className: Recipe_UnpackageBioFuel_C
   displayName: Unpackage Liquid Biofuel
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_PackagedBiofuel_C
     count: 60
@@ -1019,7 +1019,7 @@
   - Build_Packager_C
 - className: Recipe_UnpackageFuel_C
   displayName: Unpackage Fuel
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_Fuel_C
     count: 60
@@ -1032,7 +1032,7 @@
   - Build_Packager_C
 - className: Recipe_UnpackageOil_C
   displayName: Unpackage Oil
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_PackagedOil_C
     count: 60
@@ -1045,7 +1045,7 @@
   - Build_Packager_C
 - className: Recipe_UnpackageOilResidue_C
   displayName: Unpackage Heavy Oil Residue
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_PackagedOilResidue_C
     count: 20
@@ -1058,7 +1058,7 @@
   - Build_Packager_C
 - className: Recipe_UnpackageWater_C
   displayName: Unpackage Water
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_PackagedWater_C
     count: 120
@@ -1071,7 +1071,7 @@
   - Build_Packager_C
 - className: Recipe_Alternate_SteamedCopperSheet_C
   displayName: 'Alternate: Steamed Copper Sheet'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_CopperIngot_C
     count: 22.5
@@ -1084,7 +1084,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_RubberConcrete_C
   displayName: 'Alternate: Rubber Concrete'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_Stone_C
     count: 100
@@ -1097,7 +1097,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_RecycledRubber_C
   displayName: 'Alternate: Recycled Rubber'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_Plastic_C
     count: 30
@@ -1110,7 +1110,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_PureQuartzCrystal_C
   displayName: 'Alternate: Pure Quartz Crystal'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_RawQuartz_C
     count: 67.5
@@ -1123,7 +1123,7 @@
   - Build_OilRefinery_C
 - className: Recipe_QuartzCrystal_C
   displayName: Quartz Crystal
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_RawQuartz_C
     count: 37.5
@@ -1134,7 +1134,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_PureIronIngot_C
   displayName: 'Alternate: Pure Iron Ingot'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_OreIron_C
     count: 35
@@ -1147,7 +1147,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_PureCopperIngot_C
   displayName: 'Alternate: Pure Copper Ingot'
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_OreCopper_C
     count: 15
@@ -1160,7 +1160,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_PureCateriumIngot_C
   displayName: 'Alternate: Pure Caterium Ingot'
-  manufactoringDuration: 5
+  manufacturingDuration: 5
   ingredients:
   - item: Desc_OreGold_C
     count: 24
@@ -1173,7 +1173,7 @@
   - Build_OilRefinery_C
 - className: Recipe_PureAluminumIngot_C
   displayName: 'Alternate: Pure Aluminum Ingot'
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_AluminumScrap_C
     count: 60
@@ -1184,7 +1184,7 @@
   - Build_SmelterMk1_C
 - className: Recipe_AluminumCasing_C
   displayName: Aluminum Casing
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_AluminumIngot_C
     count: 90
@@ -1195,7 +1195,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_AluminumSheet_C
   displayName: Alclad Aluminum Sheet
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_AluminumIngot_C
     count: 30
@@ -1208,7 +1208,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_AluminaSolution_C
   displayName: Alumina Solution
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_OreBauxite_C
     count: 120
@@ -1223,7 +1223,7 @@
   - Build_OilRefinery_C
 - className: Recipe_AluminumScrap_C
   displayName: Aluminum Scrap
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_AluminaSolution_C
     count: 240
@@ -1238,7 +1238,7 @@
   - Build_OilRefinery_C
 - className: Recipe_PackagedAlumina_C
   displayName: Packaged Alumina Solution
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_AluminaSolution_C
     count: 120
@@ -1251,7 +1251,7 @@
   - Build_Packager_C
 - className: Recipe_IngotAluminum_C
   displayName: Aluminum Ingot
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_AluminumScrap_C
     count: 90
@@ -1264,7 +1264,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Silica_C
   displayName: Silica
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_RawQuartz_C
     count: 22.5
@@ -1275,7 +1275,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_CrystalOscillator_C
   displayName: Crystal Oscillator
-  manufactoringDuration: 120
+  manufacturingDuration: 120
   ingredients:
   - item: Desc_QuartzCrystal_C
     count: 18
@@ -1290,7 +1290,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_UnpackageAlumina_C
   displayName: Unpackage Alumina Solution
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_PackagedAlumina_C
     count: 120
@@ -1303,7 +1303,7 @@
   - Build_Packager_C
 - className: Recipe_Alternate_PolymerResin_C
   displayName: 'Alternate: Polymer Resin'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_LiquidOil_C
     count: 60
@@ -1316,7 +1316,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_PlasticSmartPlating_C
   displayName: 'Alternate: Plastic Smart Plating'
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_IronPlateReinforced_C
     count: 2.5
@@ -1331,7 +1331,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_HighSpeedWiring_C
   displayName: 'Alternate: Automated Speed Wiring'
-  manufactoringDuration: 32
+  manufacturingDuration: 32
   ingredients:
   - item: Desc_Stator_C
     count: 3.75
@@ -1346,7 +1346,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_EncasedIndustrialBeam_C
   displayName: Encased Industrial Beam
-  manufactoringDuration: 10
+  manufacturingDuration: 10
   ingredients:
   - item: Desc_SteelPlate_C
     count: 18
@@ -1359,7 +1359,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Motor_C
   displayName: Motor
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_Rotor_C
     count: 10
@@ -1372,7 +1372,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Stator_C
   displayName: Stator
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_SteelPipe_C
     count: 15
@@ -1385,7 +1385,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_SpaceElevatorPart_3_C
   displayName: Automated Wiring
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_Stator_C
     count: 2.5
@@ -1398,7 +1398,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_AILimiter_C
   displayName: AI Limiter
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_CopperSheet_C
     count: 25
@@ -1411,7 +1411,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_HeavyOilResidue_C
   displayName: 'Alternate: Heavy Oil Residue'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_LiquidOil_C
     count: 30
@@ -1424,7 +1424,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_HeavyFlexibleFrame_C
   displayName: 'Alternate: Heavy Flexible Frame'
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_ModularFrame_C
     count: 18.75
@@ -1441,7 +1441,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Computer_C
   displayName: Computer
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_CircuitBoard_C
     count: 10
@@ -1456,7 +1456,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_ModularFrameHeavy_C
   displayName: Heavy Modular Frame
-  manufactoringDuration: 30
+  manufacturingDuration: 30
   ingredients:
   - item: Desc_ModularFrame_C
     count: 10
@@ -1473,7 +1473,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_SpaceElevatorPart_4_C
   displayName: Modular Engine
-  manufactoringDuration: 60
+  manufacturingDuration: 60
   ingredients:
   - item: Desc_Motor_C
     count: 2
@@ -1488,7 +1488,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_SpaceElevatorPart_5_C
   displayName: Adaptive Control Unit
-  manufactoringDuration: 60
+  manufacturingDuration: 60
   ingredients:
   - item: Desc_SpaceElevatorPart_3_C
     count: 5
@@ -1505,7 +1505,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_FusedWire_C
   displayName: 'Alternate: Fused Wire'
-  manufactoringDuration: 20
+  manufacturingDuration: 20
   ingredients:
   - item: Desc_CopperIngot_C
     count: 12
@@ -1518,7 +1518,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_FlexibleFramework_C
   displayName: 'Alternate: Flexible Framework'
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_ModularFrame_C
     count: 3.75
@@ -1533,7 +1533,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_ElectrodeCircuitBoard_C
   displayName: 'Alternate: Electrode Circuit Board'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_Rubber_C
     count: 20
@@ -1546,7 +1546,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_ElectroAluminumScrap_C
   displayName: 'Alternate: Electrode Aluminum Scrap'
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_AluminaSolution_C
     count: 180
@@ -1561,7 +1561,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_DilutedPackagedFuel_C
   displayName: 'Alternate: Diluted Packaged Fuel'
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_HeavyOilResidue_C
     count: 30
@@ -1574,7 +1574,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_CopperRotor_C
   displayName: 'Alternate: Copper Rotor'
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_CopperSheet_C
     count: 22.5
@@ -1587,7 +1587,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_ModularFrame_C
   displayName: Modular Frame
-  manufactoringDuration: 60
+  manufacturingDuration: 60
   ingredients:
   - item: Desc_IronPlateReinforced_C
     count: 3
@@ -1600,7 +1600,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Rotor_C
   displayName: Rotor
-  manufactoringDuration: 15
+  manufacturingDuration: 15
   ingredients:
   - item: Desc_IronRod_C
     count: 20
@@ -1613,7 +1613,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_CopperSheet_C
   displayName: Copper Sheet
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_CopperIngot_C
     count: 20
@@ -1624,7 +1624,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_SpaceElevatorPart_1_C
   displayName: Smart Plating
-  manufactoringDuration: 30
+  manufacturingDuration: 30
   ingredients:
   - item: Desc_IronPlateReinforced_C
     count: 2
@@ -1637,7 +1637,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_CopperAlloyIngot_C
   displayName: 'Alternate: Copper Alloy Ingot'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_OreCopper_C
     count: 50
@@ -1650,7 +1650,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_CokeSteelIngot_C
   displayName: 'Alternate: Coke Steel Ingot'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_OreIron_C
     count: 75
@@ -1663,7 +1663,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_CoatedIronPlate_C
   displayName: 'Alternate: Coated Iron Plate'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_IronIngot_C
     count: 37.5
@@ -1676,7 +1676,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_CoatedIronCanister_C
   displayName: 'Alternate: Coated Iron Canister'
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_IronPlate_C
     count: 30
@@ -1689,7 +1689,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_CoatedCable_C
   displayName: 'Alternate: Coated Cable'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_Wire_C
     count: 37.5
@@ -1702,7 +1702,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_BoltedFrame_C
   displayName: 'Alternate: Bolted Frame'
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_IronPlateReinforced_C
     count: 7.5
@@ -1715,7 +1715,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_AdheredIronPlate_C
   displayName: 'Alternate: Adhered Iron Plate'
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_IronPlate_C
     count: 11.25
@@ -1728,7 +1728,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_TurboPressureMotor_C
   displayName: 'Alternate: Turbo Pressure Motor'
-  manufactoringDuration: 32
+  manufacturingDuration: 32
   ingredients:
   - item: Desc_Motor_C
     count: 7.5
@@ -1745,7 +1745,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_PlutoniumCell_C
   displayName: Encased Plutonium Cell
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_PlutoniumPellet_C
     count: 10
@@ -1758,7 +1758,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_PressureConversionCube_C
   displayName: Pressure Conversion Cube
-  manufactoringDuration: 60
+  manufacturingDuration: 60
   ingredients:
   - item: Desc_ModularFrameFused_C
     count: 1
@@ -1771,7 +1771,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_NitricAcid_C
   displayName: Nitric Acid
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_NitrogenGas_C
     count: 120
@@ -1786,7 +1786,7 @@
   - Build_Blender_C
 - className: Recipe_NonFissileUranium_C
   displayName: Non-Fissile Uranium
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_NuclearWaste_C
     count: 37.5
@@ -1805,7 +1805,7 @@
   - Build_Blender_C
 - className: Recipe_CopperDust_C
   displayName: Copper Powder
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_CopperIngot_C
     count: 300
@@ -1816,7 +1816,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Plutonium_C
   displayName: Plutonium Pellet
-  manufactoringDuration: 60
+  manufacturingDuration: 60
   ingredients:
   - item: Desc_NonFissibleUranium_C
     count: 100
@@ -1829,7 +1829,7 @@
   - Build_HadronCollider_C
 - className: Recipe_PlutoniumFuelRod_C
   displayName: Plutonium Fuel Rod
-  manufactoringDuration: 240
+  manufacturingDuration: 240
   ingredients:
   - item: Desc_PlutoniumCell_C
     count: 7.5
@@ -1846,7 +1846,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_PackagedNitricAcid_C
   displayName: Packaged Nitric Acid
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_NitricAcid_C
     count: 30
@@ -1859,7 +1859,7 @@
   - Build_Packager_C
 - className: Recipe_SpaceElevatorPart_9_C
   displayName: Nuclear Pasta
-  manufactoringDuration: 120
+  manufacturingDuration: 120
   ingredients:
   - item: Desc_CopperDust_C
     count: 100
@@ -1872,7 +1872,7 @@
   - Build_HadronCollider_C
 - className: Recipe_UnpackageNitricAcid_C
   displayName: Unpackage Nitric Acid
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_PackagedNitricAcid_C
     count: 20
@@ -1885,7 +1885,7 @@
   - Build_Packager_C
 - className: Recipe_Alternate_TurboBlendFuel_C
   displayName: 'Alternate: Turbo Blend Fuel'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_LiquidFuel_C
     count: 15
@@ -1902,7 +1902,7 @@
   - Build_Blender_C
 - className: Recipe_UraniumCell_C
   displayName: Encased Uranium Cell
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_OreUranium_C
     count: 50
@@ -1919,7 +1919,7 @@
   - Build_Blender_C
 - className: Recipe_CoolingSystem_C
   displayName: Cooling System
-  manufactoringDuration: 10
+  manufacturingDuration: 10
   ingredients:
   - item: Desc_AluminumPlateReinforced_C
     count: 12
@@ -1936,7 +1936,7 @@
   - Build_Blender_C
 - className: Recipe_Battery_C
   displayName: Battery
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_SulfuricAcid_C
     count: 50
@@ -1953,7 +1953,7 @@
   - Build_Blender_C
 - className: Recipe_ComputerSuper_C
   displayName: Supercomputer
-  manufactoringDuration: 32
+  manufacturingDuration: 32
   ingredients:
   - item: Desc_Computer_C
     count: 7.5
@@ -1970,7 +1970,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_RadioControlUnit_C
   displayName: Radio Control Unit
-  manufactoringDuration: 48
+  manufacturingDuration: 48
   ingredients:
   - item: Desc_AluminumCasing_C
     count: 40
@@ -1985,7 +1985,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_SulfuricAcid_C
   displayName: Sulfuric Acid
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_Sulfur_C
     count: 50
@@ -1998,7 +1998,7 @@
   - Build_OilRefinery_C
 - className: Recipe_PackagedSulfuricAcid_C
   displayName: Packaged Sulfuric Acid
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_SulfuricAcid_C
     count: 40
@@ -2011,7 +2011,7 @@
   - Build_Packager_C
 - className: Recipe_SpaceElevatorPart_7_C
   displayName: Assembly Director System
-  manufactoringDuration: 80
+  manufacturingDuration: 80
   ingredients:
   - item: Desc_SpaceElevatorPart_5_C
     count: 1.5
@@ -2024,7 +2024,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_HighSpeedConnector_C
   displayName: High-Speed Connector
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_HighSpeedWire_C
     count: 210
@@ -2039,7 +2039,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_UnpackageSulfuricAcid_C
   displayName: Unpackage Sulfuric Acid
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_PackagedSulfuricAcid_C
     count: 60
@@ -2052,7 +2052,7 @@
   - Build_Packager_C
 - className: Recipe_Alternate_SuperStateComputer_C
   displayName: 'Alternate: Super-State Computer'
-  manufactoringDuration: 25
+  manufacturingDuration: 25
   ingredients:
   - item: Desc_Computer_C
     count: 7.2
@@ -2069,7 +2069,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_ElectromagneticControlRod_C
   displayName: Electromagnetic Control Rod
-  manufactoringDuration: 30
+  manufacturingDuration: 30
   ingredients:
   - item: Desc_Stator_C
     count: 6
@@ -2082,7 +2082,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_NuclearFuelRod_C
   displayName: Uranium Fuel Rod
-  manufactoringDuration: 150
+  manufacturingDuration: 150
   ingredients:
   - item: Desc_UraniumCell_C
     count: 20
@@ -2097,7 +2097,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_SpaceElevatorPart_6_C
   displayName: Magnetic Field Generator
-  manufactoringDuration: 120
+  manufacturingDuration: 120
   ingredients:
   - item: Desc_SpaceElevatorPart_2_C
     count: 2.5
@@ -2110,7 +2110,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_SloppyAlumina_C
   displayName: 'Alternate: Sloppy Alumina'
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_OreBauxite_C
     count: 200
@@ -2123,7 +2123,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_RadioControlSystem_C
   displayName: 'Alternate: Radio Control System'
-  manufactoringDuration: 40
+  manufacturingDuration: 40
   ingredients:
   - item: Desc_CrystalOscillator_C
     count: 1.5
@@ -2140,7 +2140,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_PlutoniumFuelUnit_C
   displayName: 'Alternate: Plutonium Fuel Unit'
-  manufactoringDuration: 120
+  manufacturingDuration: 120
   ingredients:
   - item: Desc_PlutoniumCell_C
     count: 10
@@ -2153,7 +2153,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_OCSupercomputer_C
   displayName: 'Alternate: OC Supercomputer'
-  manufactoringDuration: 20
+  manufacturingDuration: 20
   ingredients:
   - item: Desc_ModularFrameLightweight_C
     count: 6
@@ -2166,7 +2166,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_HeatSink_C
   displayName: Heat Sink
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_AluminumPlate_C
     count: 37.5
@@ -2179,7 +2179,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_FusedModularFrame_C
   displayName: Fused Modular Frame
-  manufactoringDuration: 40
+  manufacturingDuration: 40
   ingredients:
   - item: Desc_ModularFrameHeavy_C
     count: 1.5
@@ -2194,7 +2194,7 @@
   - Build_Blender_C
 - className: Recipe_GasTank_C
   displayName: Empty Fluid Tank
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_AluminumIngot_C
     count: 60
@@ -2205,7 +2205,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_PackagedNitrogen_C
   displayName: Packaged Nitrogen Gas
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_NitrogenGas_C
     count: 240
@@ -2218,7 +2218,7 @@
   - Build_Packager_C
 - className: Recipe_UnpackageNitrogen_C
   displayName: Unpackage Nitrogen Gas
-  manufactoringDuration: 1
+  manufacturingDuration: 1
   ingredients:
   - item: Desc_PackagedNitrogenGas_C
     count: 60
@@ -2231,7 +2231,7 @@
   - Build_Packager_C
 - className: Recipe_Alternate_InstantScrap_C
   displayName: 'Alternate: Instant Scrap'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_OreBauxite_C
     count: 150
@@ -2250,7 +2250,7 @@
   - Build_Blender_C
 - className: Recipe_Alternate_InstantPlutoniumCell_C
   displayName: 'Alternate: Instant Plutonium Cell'
-  manufactoringDuration: 120
+  manufacturingDuration: 120
   ingredients:
   - item: Desc_NonFissibleUranium_C
     count: 75
@@ -2263,7 +2263,7 @@
   - Build_HadronCollider_C
 - className: Recipe_Alternate_HeatFusedFrame_C
   displayName: 'Alternate: Heat-Fused Frame'
-  manufactoringDuration: 20
+  manufacturingDuration: 20
   ingredients:
   - item: Desc_ModularFrameHeavy_C
     count: 3
@@ -2280,7 +2280,7 @@
   - Build_Blender_C
 - className: Recipe_Alternate_FertileUranium_C
   displayName: 'Alternate: Fertile Uranium'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_OreUranium_C
     count: 25
@@ -2299,7 +2299,7 @@
   - Build_Blender_C
 - className: Recipe_Alternate_ElectricMotor_C
   displayName: 'Alternate: Electric Motor'
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_ElectromagneticControlRod_C
     count: 3.75
@@ -2312,7 +2312,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_DilutedFuel_C
   displayName: 'Alternate: Diluted Fuel'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_HeavyOilResidue_C
     count: 50
@@ -2325,7 +2325,7 @@
   - Build_Blender_C
 - className: Recipe_Alternate_CoolingDevice_C
   displayName: 'Alternate: Cooling Device'
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_AluminumPlateReinforced_C
     count: 10
@@ -2340,7 +2340,7 @@
   - Build_Blender_C
 - className: Recipe_Alternate_ClassicBattery_C
   displayName: 'Alternate: Classic Battery'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_Sulfur_C
     count: 45
@@ -2357,7 +2357,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_AlcladCasing_C
   displayName: 'Alternate: Alclad Casing'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_AluminumIngot_C
     count: 150
@@ -2370,7 +2370,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_SteelPipe_Molded_C
   displayName: 'Alternate: Molded Steel Pipe'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SteelIngot_C
     count: 50
@@ -2383,7 +2383,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_SteelPipe_Iron_C
   displayName: 'Alternate: Iron Pipe'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_IronIngot_C
     count: 100
@@ -2394,7 +2394,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_SteelCastedPlate_C
   displayName: 'Alternate: Steel Cast Plate'
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_IronIngot_C
     count: 15
@@ -2407,7 +2407,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_SteelBeam_Molded_C
   displayName: 'Alternate: Molded Beam'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_SteelIngot_C
     count: 120
@@ -2420,7 +2420,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_SteelBeam_Aluminum_C
   displayName: 'Alternate: Aluminum Beam'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_AluminumIngot_C
     count: 22.5
@@ -2431,7 +2431,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_AluminumRod_C
   displayName: 'Alternate: Aluminum Rod'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_AluminumIngot_C
     count: 7.5
@@ -2442,7 +2442,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_AILimiter_Plastic_C
   displayName: 'Alternate: Plastic AI Limiter'
-  manufactoringDuration: 15
+  manufacturingDuration: 15
   ingredients:
   - item: Desc_HighSpeedWire_C
     count: 120
@@ -2455,7 +2455,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Silica_Distilled_C
   displayName: 'Alternate: Distilled Silica'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_DissolvedSilica_C
     count: 120
@@ -2472,7 +2472,7 @@
   - Build_Blender_C
 - className: Recipe_Alternate_Quartz_Purified_C
   displayName: 'Alternate: Quartz Purification'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_RawQuartz_C
     count: 120
@@ -2487,7 +2487,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_Quartz_Fused_C
   displayName: 'Alternate: Fused Quartz Crystal'
-  manufactoringDuration: 20
+  manufacturingDuration: 20
   ingredients:
   - item: Desc_RawQuartz_C
     count: 75
@@ -2500,7 +2500,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_IronIngot_Leached_C
   displayName: 'Alternate: Leached Iron ingot'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_OreIron_C
     count: 50
@@ -2513,7 +2513,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_IronIngot_Basic_C
   displayName: 'Alternate: Basic Iron Ingot'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_OreIron_C
     count: 25
@@ -2526,7 +2526,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_CopperIngot_Tempered_C
   displayName: 'Alternate: Tempered Copper Ingot'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_OreCopper_C
     count: 25
@@ -2539,7 +2539,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_CopperIngot_Leached_C
   displayName: 'Alternate: Leached Copper Ingot'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_OreCopper_C
     count: 45
@@ -2552,7 +2552,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_CateriumIngot_Tempered_C
   displayName: 'Alternate: Tempered Caterium Ingot'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_OreGold_C
     count: 45
@@ -2565,7 +2565,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_CateriumIngot_Leached_C
   displayName: 'Alternate: Leached Caterium Ingot'
-  manufactoringDuration: 10
+  manufacturingDuration: 10
   ingredients:
   - item: Desc_OreGold_C
     count: 54
@@ -2578,7 +2578,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_Wire_2_C
   displayName: 'Alternate: Caterium Wire'
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_GoldIngot_C
     count: 15
@@ -2589,7 +2589,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_Wire_1_C
   displayName: 'Alternate: Iron Wire'
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_IronIngot_C
     count: 12.5
@@ -2600,7 +2600,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_UraniumCell_1_C
   displayName: 'Alternate: Infused Uranium Cell'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_OreUranium_C
     count: 25
@@ -2617,7 +2617,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_IngotCaterium_C
   displayName: Caterium Ingot
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_OreGold_C
     count: 45
@@ -2628,7 +2628,7 @@
   - Build_SmelterMk1_C
 - className: Recipe_Alternate_TurboMotor_1_C
   displayName: 'Alternate: Turbo Electric Motor'
-  manufactoringDuration: 64
+  manufacturingDuration: 64
   ingredients:
   - item: Desc_Motor_C
     count: 6.5625
@@ -2645,7 +2645,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_MotorTurbo_C
   displayName: Turbo Motor
-  manufactoringDuration: 32
+  manufacturingDuration: 32
   ingredients:
   - item: Desc_CoolingSystem_C
     count: 7.5
@@ -2662,7 +2662,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_SpaceElevatorPart_8_C
   displayName: Thermal Propulsion Rocket
-  manufactoringDuration: 120
+  manufacturingDuration: 120
   ingredients:
   - item: Desc_SpaceElevatorPart_4_C
     count: 2.5
@@ -2679,7 +2679,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_Stator_C
   displayName: 'Alternate: Quickwire Stator'
-  manufactoringDuration: 15
+  manufacturingDuration: 15
   ingredients:
   - item: Desc_SteelPipe_C
     count: 16
@@ -2692,7 +2692,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Silica_C
   displayName: 'Alternate: Cheap Silica'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_RawQuartz_C
     count: 22.5
@@ -2705,7 +2705,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Screw_2_C
   displayName: 'Alternate: Steel Screw'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_SteelPlate_C
     count: 5
@@ -2716,7 +2716,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_Screw_C
   displayName: 'Alternate: Cast Screw'
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_IronIngot_C
     count: 12.5
@@ -2727,7 +2727,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_Rotor_C
   displayName: 'Alternate: Steel Rotor'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_SteelPipe_C
     count: 10
@@ -2740,7 +2740,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_EncasedIndustrialBeam_C
   displayName: 'Alternate: Encased Industrial Pipe'
-  manufactoringDuration: 15
+  manufacturingDuration: 15
   ingredients:
   - item: Desc_SteelPipe_C
     count: 24
@@ -2753,7 +2753,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_ReinforcedIronPlate_2_C
   displayName: 'Alternate: Stitched Iron Plate'
-  manufactoringDuration: 32
+  manufacturingDuration: 32
   ingredients:
   - item: Desc_IronPlate_C
     count: 18.75
@@ -2766,7 +2766,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_ReinforcedIronPlate_1_C
   displayName: 'Alternate: Bolted Iron Plate'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_IronPlate_C
     count: 90
@@ -2779,7 +2779,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_RadioControlUnit_1_C
   displayName: 'Alternate: Radio Connection Unit'
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_AluminumPlateReinforced_C
     count: 15
@@ -2794,7 +2794,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_Quickwire_C
   displayName: 'Alternate: Fused Quickwire'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_GoldIngot_C
     count: 7.5
@@ -2807,7 +2807,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Plastic_1_C
   displayName: 'Alternate: Recycled Plastic'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_Rubber_C
     count: 30
@@ -2820,7 +2820,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Alternate_NuclearFuelRod_1_C
   displayName: 'Alternate: Uranium Fuel Unit'
-  manufactoringDuration: 300
+  manufacturingDuration: 300
   ingredients:
   - item: Desc_UraniumCell_C
     count: 20
@@ -2837,7 +2837,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_Motor_1_C
   displayName: 'Alternate: Rigor Motor'
-  manufactoringDuration: 48
+  manufacturingDuration: 48
   ingredients:
   - item: Desc_Rotor_C
     count: 3.75
@@ -2852,7 +2852,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_ModularFrame_C
   displayName: 'Alternate: Steeled Frame'
-  manufactoringDuration: 60
+  manufacturingDuration: 60
   ingredients:
   - item: Desc_IronPlateReinforced_C
     count: 2
@@ -2865,7 +2865,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_IngotSteel_2_C
   displayName: 'Alternate: Compacted Steel Ingot'
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_OreIron_C
     count: 5
@@ -2878,7 +2878,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_IngotSteel_1_C
   displayName: 'Alternate: Solid Steel Ingot'
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_IronIngot_C
     count: 40
@@ -2891,7 +2891,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_IngotIron_C
   displayName: 'Alternate: Iron Alloy Ingot'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_OreIron_C
     count: 40
@@ -2904,7 +2904,7 @@
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_HighSpeedConnector_C
   displayName: 'Alternate: Silicon High-Speed Connector'
-  manufactoringDuration: 40
+  manufacturingDuration: 40
   ingredients:
   - item: Desc_HighSpeedWire_C
     count: 90
@@ -2919,7 +2919,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_ModularFrameHeavy_C
   displayName: 'Alternate: Heavy Encased Frame'
-  manufactoringDuration: 64
+  manufacturingDuration: 64
   ingredients:
   - item: Desc_ModularFrame_C
     count: 7.5
@@ -2936,7 +2936,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_HeatSink_1_C
   displayName: 'Alternate: Heat Exchanger'
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_AluminumCasing_C
     count: 30
@@ -2949,7 +2949,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Gunpowder_1_C
   displayName: 'Alternate: Fine Black Powder'
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_Sulfur_C
     count: 7.5
@@ -2962,7 +2962,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_ElectromagneticControlRod_1_C
   displayName: 'Alternate: Electromagnetic Connection Rod'
-  manufactoringDuration: 15
+  manufacturingDuration: 15
   ingredients:
   - item: Desc_Stator_C
     count: 8
@@ -2975,7 +2975,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_CrystalOscillator_C
   displayName: 'Alternate: Insulated Crystal Oscillator'
-  manufactoringDuration: 32
+  manufacturingDuration: 32
   ingredients:
   - item: Desc_QuartzCrystal_C
     count: 18.75
@@ -2990,7 +2990,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_Concrete_C
   displayName: 'Alternate: Fine Concrete'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_Silica_C
     count: 15
@@ -3003,7 +3003,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Computer_2_C
   displayName: 'Alternate: Crystal Computer'
-  manufactoringDuration: 36
+  manufacturingDuration: 36
   ingredients:
   - item: Desc_CircuitBoard_C
     count: 5
@@ -3016,7 +3016,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Computer_1_C
   displayName: 'Alternate: Caterium Computer'
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_CircuitBoard_C
     count: 15
@@ -3031,7 +3031,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Alternate_CircuitBoard_2_C
   displayName: 'Alternate: Caterium Circuit Board'
-  manufactoringDuration: 48
+  manufacturingDuration: 48
   ingredients:
   - item: Desc_Plastic_C
     count: 12.5
@@ -3044,7 +3044,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_CircuitBoard_1_C
   displayName: 'Alternate: Silicon Circuit Board'
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_CopperSheet_C
     count: 27.5
@@ -3057,7 +3057,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Cable_2_C
   displayName: 'Alternate: Quickwire Cable'
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_HighSpeedWire_C
     count: 7.5
@@ -3070,7 +3070,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Cable_1_C
   displayName: 'Alternate: Insulated Cable'
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_Wire_C
     count: 45
@@ -3083,7 +3083,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Ficsonium_C
   displayName: Ficsonium
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_PlutoniumWaste_C
     count: 10
@@ -3098,7 +3098,7 @@
   - Build_HadronCollider_C
 - className: Recipe_FicsoniumFuelRod_C
   displayName: Ficsonium Fuel Rod
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_Ficsonium_C
     count: 5
@@ -3117,7 +3117,7 @@
   - Build_QuantumEncoder_C
 - className: Recipe_SingularityCell_C
   displayName: Singularity Cell
-  manufactoringDuration: 60
+  manufacturingDuration: 60
   ingredients:
   - item: Desc_SpaceElevatorPart_9_C
     count: 1
@@ -3134,7 +3134,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_SpaceElevatorPart_11_C
   displayName: Ballistic Warp Drive
-  manufactoringDuration: 60
+  manufacturingDuration: 60
   ingredients:
   - item: Desc_SpaceElevatorPart_8_C
     count: 1
@@ -3151,7 +3151,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_FilterHazmat_C
   displayName: Iodine-Infused Filter
-  manufactoringDuration: 16
+  manufacturingDuration: 16
   ingredients:
   - item: Desc_Filter_C
     count: 3.75
@@ -3166,7 +3166,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Quickwire_C
   displayName: Quickwire
-  manufactoringDuration: 5
+  manufacturingDuration: 5
   ingredients:
   - item: Desc_GoldIngot_C
     count: 12
@@ -3177,7 +3177,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Biofuel_C
   displayName: Solid Biofuel
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_GenericBiomass_C
     count: 120
@@ -3188,7 +3188,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Protein_Hog_C
   displayName: Hog Protein
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_HogParts_C
     count: 20
@@ -3199,7 +3199,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Protein_Spitter_C
   displayName: Spitter Protein
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_SpitterParts_C
     count: 20
@@ -3210,7 +3210,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Biomass_Mycelia_C
   displayName: Biomass (Mycelia)
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_Mycelia_C
     count: 15
@@ -3221,7 +3221,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Gunpowder_C
   displayName: Black Powder
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_Coal_C
     count: 15
@@ -3234,7 +3234,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Protein_Stinger_C
   displayName: Stinger Protein
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_StingerParts_C
     count: 20
@@ -3245,7 +3245,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Protein_Crab_C
   displayName: Hatcher Protein
-  manufactoringDuration: 3
+  manufacturingDuration: 3
   ingredients:
   - item: Desc_HatcherParts_C
     count: 20
@@ -3256,7 +3256,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_AlienDNACapsule_C
   displayName: Alien DNA Capsule
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_AlienProtein_C
     count: 10
@@ -3267,7 +3267,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Biomass_AlienProtein_C
   displayName: Biomass (Alien Protein)
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_AlienProtein_C
     count: 15
@@ -3278,7 +3278,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_SpikedRebar_C
   displayName: Iron Rebar
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_IronRod_C
     count: 15
@@ -3289,7 +3289,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_CartridgeSmart_C
   displayName: Homing Rifle Ammo
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_CartridgeStandard_C
     count: 50
@@ -3302,7 +3302,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Rebar_Stunshot_C
   displayName: Stun Rebar
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_SpikedRebar_C
     count: 10
@@ -3315,7 +3315,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_FilterGasMask_C
   displayName: Gas Filter
-  manufactoringDuration: 8
+  manufacturingDuration: 8
   ingredients:
   - item: Desc_Fabric_C
     count: 15
@@ -3330,7 +3330,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_NobeliskGas_C
   displayName: Gas Nobelisk
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_NobeliskExplosive_C
     count: 5
@@ -3343,7 +3343,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_PolyesterFabric_C
   displayName: 'Alternate: Polyester Fabric'
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_PolymerResin_C
     count: 30
@@ -3356,7 +3356,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Fabric_C
   displayName: Fabric
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_Mycelia_C
     count: 15
@@ -3369,7 +3369,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_NobeliskShockwave_C
   displayName: Pulse Nobelisk
-  manufactoringDuration: 60
+  manufacturingDuration: 60
   ingredients:
   - item: Desc_NobeliskExplosive_C
     count: 5
@@ -3382,7 +3382,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Rebar_Spreadshot_C
   displayName: Shatter Rebar
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_SpikedRebar_C
     count: 10
@@ -3395,7 +3395,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_CartridgeChaos_Packaged_C
   displayName: Turbo Rifle Ammo
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_CartridgeStandard_C
     count: 125
@@ -3410,7 +3410,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_CartridgeChaos_C
   displayName: Turbo Rifle Ammo
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_CartridgeStandard_C
     count: 125
@@ -3425,7 +3425,7 @@
   - Build_Blender_C
 - className: Recipe_NobeliskNuke_C
   displayName: Nuke Nobelisk
-  manufactoringDuration: 120
+  manufacturingDuration: 120
   ingredients:
   - item: Desc_NobeliskExplosive_C
     count: 2.5
@@ -3442,7 +3442,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_Cartridge_C
   displayName: Rifle Ammo
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_CopperSheet_C
     count: 15
@@ -3455,7 +3455,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Rebar_Explosive_C
   displayName: Explosive Rebar
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_SpikedRebar_C
     count: 10
@@ -3470,7 +3470,7 @@
   - Build_ManufacturerMk1_C
 - className: Recipe_NobeliskCluster_C
   displayName: Cluster Nobelisk
-  manufactoringDuration: 24
+  manufacturingDuration: 24
   ingredients:
   - item: Desc_NobeliskExplosive_C
     count: 7.5
@@ -3483,7 +3483,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Nobelisk_C
   displayName: Nobelisk
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_Gunpowder_C
     count: 20
@@ -3496,7 +3496,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_GunpowderMK2_C
   displayName: Smokeless Powder
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_Gunpowder_C
     count: 20
@@ -3509,7 +3509,7 @@
   - Build_OilRefinery_C
 - className: Recipe_Biomass_Leaves_C
   displayName: Biomass (Leaves)
-  manufactoringDuration: 5
+  manufacturingDuration: 5
   ingredients:
   - item: Desc_Leaves_C
     count: 120
@@ -3520,7 +3520,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Biomass_Wood_C
   displayName: Biomass (Wood)
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_Wood_C
     count: 60
@@ -3531,7 +3531,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_IronPlateReinforced_C
   displayName: Reinforced Iron Plate
-  manufactoringDuration: 12
+  manufacturingDuration: 12
   ingredients:
   - item: Desc_IronPlate_C
     count: 30
@@ -3544,7 +3544,7 @@
   - Build_AssemblerMk1_C
 - className: Recipe_Concrete_C
   displayName: Concrete
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_Stone_C
     count: 45
@@ -3555,7 +3555,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Screw_C
   displayName: Screw
-  manufactoringDuration: 6
+  manufacturingDuration: 6
   ingredients:
   - item: Desc_IronRod_C
     count: 10
@@ -3566,7 +3566,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Cable_C
   displayName: Cable
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_Wire_C
     count: 60
@@ -3577,7 +3577,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_Wire_C
   displayName: Wire
-  manufactoringDuration: 4
+  manufacturingDuration: 4
   ingredients:
   - item: Desc_CopperIngot_C
     count: 15
@@ -3588,7 +3588,7 @@
   - Build_ConstructorMk1_C
 - className: Recipe_IngotCopper_C
   displayName: Copper Ingot
-  manufactoringDuration: 2
+  manufacturingDuration: 2
   ingredients:
   - item: Desc_OreCopper_C
     count: 30

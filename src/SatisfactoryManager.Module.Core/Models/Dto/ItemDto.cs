@@ -6,4 +6,5 @@ public record ItemDto(
     string? Description,
     string Form,
     double? EnergyValue,
-    string[] ExtractionBuildings);
+    string[] ExtractionBuildings,
+    string[] FuelGenerators);

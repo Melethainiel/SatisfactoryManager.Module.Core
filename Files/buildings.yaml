@@ -2,7 +2,7 @@
   name: Coal-Powered Generator
   energyConsumption: 0
   energyProduction: 75
-  supplementalLoadAmount: 1000
+  supplementalLoadAmount: 45
   type: Generator
 - className: Build_GeneratorFuel_C
   name: Fuel-Powered Generator
@@ -20,12 +20,17 @@
   name: Nuclear Power Plant
   energyConsumption: 0
   energyProduction: 2500
-  supplementalLoadAmount: 10000
+  supplementalLoadAmount: 240
   type: Generator
 - className: Build_GeneratorGeoThermal_C
   name: Geothermal Generator
   energyConsumption: 0
-  energyProduction: 0
+  energyProduction: 200
+  type: Generator
+- className: Desc_AlienPowerFuel_C
+  name: Alien Power Augmenter
+  energyConsumption: 0
+  energyProduction: 500
   type: Generator
 - className: Build_OilRefinery_C
   name: Refinery

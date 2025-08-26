@@ -3287,6 +3287,23 @@
     count: 15
   craftedIn:
   - Build_ConstructorMk1_C
+- className: Recipe_AlienPowerFuel_C
+  displayName: Alien Power Matrix
+  manufacturingDuration: 24
+  ingredients:
+  - item: Desc_SAMFluctuator_C
+    count: 12.5
+  - item: Desc_QuantumOscillator_C
+    count: 7.5
+  - item: Desc_QuantumEnergy_C
+    count: 60
+  products:
+  - item: Desc_AlienPowerFuel_C
+    count: 2.5
+  - item: Desc_DarkEnergy_C
+    count: 60
+  craftedIn:
+  - Build_QuantumEncoder_C
 - className: Recipe_CartridgeSmart_C
   displayName: Homing Rifle Ammo
   manufacturingDuration: 24

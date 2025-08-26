@@ -51,12 +51,12 @@
   name: Blender
   energyConsumption: 75
   type: Constructor
-- className: Build_SmelterMk1_C
-  name: Smelter
-  energyConsumption: 4
-  type: Constructor
 - className: Build_ConstructorMk1_C
   name: Constructor
+  energyConsumption: 4
+  type: Constructor
+- className: Build_SmelterMk1_C
+  name: Smelter
   energyConsumption: 4
   type: Constructor
 - className: Build_QuantumEncoder_C

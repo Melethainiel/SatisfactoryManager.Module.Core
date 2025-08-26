@@ -64,10 +64,17 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         CancellationToken cancellationToken = default
     )
     {
-        var items = new List<ItemDto>();
+        var items = new HashSet<ItemDto>();
 
-        items.AddRange(GetItems(data));
-        items.AddRange(GetResources(data));
+        foreach (var item in GetItems(data))
+        {
+            items.Add(item);
+        }
+        foreach (var item in GetResources(data))
+        {
+            items.Add(item);
+        }
+
 
         var itemsFile = new FileInfo(Path.Combine(directory.FullName, "items.yaml"));
         await File.WriteAllTextAsync(

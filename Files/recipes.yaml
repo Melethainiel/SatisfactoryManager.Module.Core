@@ -2499,7 +2499,7 @@
   craftedIn:
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_IronIngot_Leached_C
-  displayName: 'Alternate: Leached Iron ingot'
+  displayName: 'Alternate: Leached Iron Ingot'
   manufacturingDuration: 6
   ingredients:
   - item: Desc_OreIron_C
@@ -2704,7 +2704,7 @@
   craftedIn:
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Screw_2_C
-  displayName: 'Alternate: Steel Screw'
+  displayName: 'Alternate: Steel Screws'
   manufacturingDuration: 12
   ingredients:
   - item: Desc_SteelPlate_C
@@ -2715,7 +2715,7 @@
   craftedIn:
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_Screw_C
-  displayName: 'Alternate: Cast Screw'
+  displayName: 'Alternate: Cast Screws'
   manufacturingDuration: 24
   ingredients:
   - item: Desc_IronIngot_C
@@ -3554,7 +3554,7 @@
   craftedIn:
   - Build_ConstructorMk1_C
 - className: Recipe_Screw_C
-  displayName: Screw
+  displayName: Screws
   manufacturingDuration: 6
   ingredients:
   - item: Desc_IronRod_C

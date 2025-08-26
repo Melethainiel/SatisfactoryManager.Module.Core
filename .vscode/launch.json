@@ -9,6 +9,7 @@
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/src/SatisfactoryManager.Module.Core/SatisfactoryManager.Module.Core.csproj",
+            "args": "--input Data/en-US.json --output /home/thibaud/source/repos/SatisfactoryManager.Module.Core/Files"
         }
     ]
 }

@@ -2499,7 +2499,7 @@
   craftedIn:
   - Build_FoundryMk1_C
 - className: Recipe_Alternate_IronIngot_Leached_C
-  displayName: 'Alternate: Leached Iron ingot'
+  displayName: 'Alternate: Leached Iron Ingot'
   manufacturingDuration: 6
   ingredients:
   - item: Desc_OreIron_C
@@ -2704,7 +2704,7 @@
   craftedIn:
   - Build_AssemblerMk1_C
 - className: Recipe_Alternate_Screw_2_C
-  displayName: 'Alternate: Steel Screw'
+  displayName: 'Alternate: Steel Screws'
   manufacturingDuration: 12
   ingredients:
   - item: Desc_SteelPlate_C
@@ -2715,7 +2715,7 @@
   craftedIn:
   - Build_ConstructorMk1_C
 - className: Recipe_Alternate_Screw_C
-  displayName: 'Alternate: Cast Screw'
+  displayName: 'Alternate: Cast Screws'
   manufacturingDuration: 24
   ingredients:
   - item: Desc_IronIngot_C
@@ -3287,6 +3287,23 @@
     count: 15
   craftedIn:
   - Build_ConstructorMk1_C
+- className: Recipe_AlienPowerFuel_C
+  displayName: Alien Power Matrix
+  manufacturingDuration: 24
+  ingredients:
+  - item: Desc_SAMFluctuator_C
+    count: 12.5
+  - item: Desc_QuantumOscillator_C
+    count: 7.5
+  - item: Desc_QuantumEnergy_C
+    count: 60
+  products:
+  - item: Desc_AlienPowerFuel_C
+    count: 2.5
+  - item: Desc_DarkEnergy_C
+    count: 60
+  craftedIn:
+  - Build_QuantumEncoder_C
 - className: Recipe_CartridgeSmart_C
   displayName: Homing Rifle Ammo
   manufacturingDuration: 24
@@ -3554,7 +3571,7 @@
   craftedIn:
   - Build_ConstructorMk1_C
 - className: Recipe_Screw_C
-  displayName: Screw
+  displayName: Screws
   manufacturingDuration: 6
   ingredients:
   - item: Desc_IronRod_C

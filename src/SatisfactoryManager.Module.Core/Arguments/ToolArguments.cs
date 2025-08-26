@@ -8,11 +8,11 @@ public sealed class ToolArguments
         'i',
         "input",
         HelpText = "Path to the CoreData file to parse.")]
-    public string InputFilePath { get; set; } = "Data/Docs.json";
+    public string InputFilePath { get; set; } = "Data/en-US.json";
 
     [Option(
         'o',
         "output",
         HelpText = "Path to the output directory.")]
-    public string OutputDirectoryPath { get; set; } = "../../Files";
+    public string OutputDirectoryPath { get; set; } = "../../../../../Files";
 }

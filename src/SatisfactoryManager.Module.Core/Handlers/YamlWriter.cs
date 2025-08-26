@@ -64,10 +64,19 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         CancellationToken cancellationToken = default
     )
     {
-        var items = new List<ItemDto>();
+        var items = new HashSet<ItemDto>();
+        var itemToBuildingMapping = ItemMapper.CreateItemToBuildingMapping(data.GameMiners);
+        var itemToGeneratorMapping = ItemMapper.CreateItemToGeneratorMapping(data.GameGenerators);
 
-        items.AddRange(GetItems(data));
-        items.AddRange(GetResources(data));
+        foreach (var item in GetItems(data, itemToBuildingMapping, itemToGeneratorMapping))
+        {
+            items.Add(item);
+        }
+        foreach (var item in GetResources(data, itemToBuildingMapping, itemToGeneratorMapping))
+        {
+            items.Add(item);
+        }
+
 
         var itemsFile = new FileInfo(Path.Combine(directory.FullName, "items.yaml"));
         await File.WriteAllTextAsync(
@@ -79,32 +88,52 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         return new Success();
     }
 
-    private static IEnumerable<ItemDto> GetResources(GameData data)
+    private static IEnumerable<ItemDto> GetResources(GameData data, Dictionary<string, string[]> itemToBuildingMapping, Dictionary<string, string[]> itemToGeneratorMapping)
     {
         foreach (var gameResource in data.GameResources.Values)
         {
+            var extractionBuildings = itemToBuildingMapping.TryGetValue(gameResource.ClassName, out var buildings) 
+                ? buildings 
+                : Array.Empty<string>();
+                
+            var fuelGenerators = itemToGeneratorMapping.TryGetValue(gameResource.ClassName, out var generators) 
+                ? generators 
+                : Array.Empty<string>();
+
             var item = new ItemDto(
                 gameResource.ClassName,
                 gameResource.MDisplayName,
                 gameResource.MDescription.Replace("\r\n", ""),
                 gameResource.MForm,
-                gameResource.EnergyValue
+                gameResource.EnergyValue,
+                extractionBuildings,
+                fuelGenerators
             );
 
             yield return item;
         }
     }
 
-    private static IEnumerable<ItemDto> GetItems(GameData data)
+    private static IEnumerable<ItemDto> GetItems(GameData data, Dictionary<string, string[]> itemToBuildingMapping, Dictionary<string, string[]> itemToGeneratorMapping)
     {
         foreach (var gameItem in data.GameItems.Values)
         {
+            var extractionBuildings = itemToBuildingMapping.TryGetValue(gameItem.ClassName, out var buildings) 
+                ? buildings 
+                : Array.Empty<string>();
+                
+            var fuelGenerators = itemToGeneratorMapping.TryGetValue(gameItem.ClassName, out var generators) 
+                ? generators 
+                : Array.Empty<string>();
+
             yield return new ItemDto(
                 gameItem.ClassName,
                 gameItem.MDisplayName,
                 gameItem.MDescription.Replace("\r\n", ""),
                 gameItem.MForm,
-                gameItem.EnergyValue
+                gameItem.EnergyValue,
+                extractionBuildings,
+                fuelGenerators
             );
         }
     }

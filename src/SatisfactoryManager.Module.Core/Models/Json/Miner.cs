@@ -17,6 +17,7 @@ public sealed class Miner
     public string MPowerConsumption { get; set; } = null!;
     public string MDisplayName { get; set; } = null!;
     public string MDescription { get; set; } = null!;
+    public string? MParticleMap { get; set; }
 
 
     public string[] AllowedResourceForms =>
@@ -26,9 +27,14 @@ public sealed class Miner
                 .Split(',');
 
     public string[] AllowedResources =>
-        _allowedResources ??= string.IsNullOrEmpty(MAllowedResources)
-            ? Array.Empty<string>()
-            : MAllowedResources[1..^1]
+        _allowedResources ??= GetAllowedResourcesFromData();
+
+    private string[] GetAllowedResourcesFromData()
+    {
+        // Try MAllowedResources first
+        if (!string.IsNullOrEmpty(MAllowedResources))
+        {
+            return MAllowedResources[1..^1]
                 .Split(',')
                 .Select(
                     x => x.Split(".")
@@ -36,6 +42,41 @@ public sealed class Miner
                         .Replace("\"", "")
                         .Replace("\'", ""))
                 .ToArray();
+        }
+        
+        // Fallback to mParticleMap if MAllowedResources is empty
+        if (!string.IsNullOrEmpty(MParticleMap))
+        {
+            return ExtractResourcesFromParticleMap(MParticleMap);
+        }
+        
+        return Array.Empty<string>();
+    }
+    
+    private static string[] ExtractResourcesFromParticleMap(string particleMap)
+    {
+        // Extract resources from particle map format:
+        // ((ResourceNode_...="/Game/.../Desc_Coal.Desc_Coal_C",...)
+        var resources = new List<string>();
+        
+        // Find all resource paths in the particle map
+        var matches = System.Text.RegularExpressions.Regex.Matches(
+            particleMap, 
+            @"/Game/[^""]*/(Desc_\w+\.Desc_\w+_C)");
+        
+        foreach (System.Text.RegularExpressions.Match match in matches)
+        {
+            if (match.Groups.Count > 1)
+            {
+                // Extract the final part after the last dot (e.g., "Desc_OreIron.Desc_OreIron_C" -> "Desc_OreIron_C")
+                var fullMatch = match.Groups[1].Value;
+                var finalPart = fullMatch.Split('.').Last();
+                resources.Add(finalPart);
+            }
+        }
+        
+        return resources.Distinct().ToArray();
+    }
 
     public double PowerConsumption =>
         _powerConsumption ??= double.Parse(

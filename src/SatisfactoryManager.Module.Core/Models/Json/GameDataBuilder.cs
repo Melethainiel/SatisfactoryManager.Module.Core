@@ -37,6 +37,7 @@ public sealed class GameDataBuilder
         "/Script/CoreUObject.Class'/Script/FactoryGame.FGAmmoTypeInstantHit'",
         "/Script/CoreUObject.Class'/Script/FactoryGame.FGAmmoTypeSpreadshot'",
         "/Script/CoreUObject.Class'/Script/FactoryGame.FGItemDescriptorNuclearFuel'",
+        "/Script/CoreUObject.Class'/Script/FactoryGame.FGItemDescriptorPowerBoosterFuel'"
     ];
 
     private static readonly string[] ResourcesClassNames =

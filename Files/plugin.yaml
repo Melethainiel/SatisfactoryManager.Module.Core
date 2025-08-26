@@ -1,4 +1,7 @@
-name: Core
-version: 0.8
-description: Core game of Satisfactory Update 8
+name: Satisfactory
+version: "1.1"
+description: Satisfactory 1.1
 dependencies: []
+url: "https://github.com/Melethainiel/SatisfactoryManager.Module.Core"
+download: "https://github.com/Melethainiel/SatisfactoryManager.Module.Core/archive/dev-0.4.zip"
+manifest: "https://github.com/Melethainiel/SatisfactoryManager.Module.Core/releases/download/dev-0.4/plugin.yaml"

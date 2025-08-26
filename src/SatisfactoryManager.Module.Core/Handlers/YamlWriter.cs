@@ -65,12 +65,13 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
     )
     {
         var items = new HashSet<ItemDto>();
+        var itemToBuildingMapping = ItemMapper.CreateItemToBuildingMapping(data.GameMiners);
 
-        foreach (var item in GetItems(data))
+        foreach (var item in GetItems(data, itemToBuildingMapping))
         {
             items.Add(item);
         }
-        foreach (var item in GetResources(data))
+        foreach (var item in GetResources(data, itemToBuildingMapping))
         {
             items.Add(item);
         }
@@ -86,32 +87,42 @@ public class YamlWriter(IOptions<ToolArguments> arguments) : IYamlWriter
         return new Success();
     }
 
-    private static IEnumerable<ItemDto> GetResources(GameData data)
+    private static IEnumerable<ItemDto> GetResources(GameData data, Dictionary<string, string[]> itemToBuildingMapping)
     {
         foreach (var gameResource in data.GameResources.Values)
         {
+            var extractionBuildings = itemToBuildingMapping.TryGetValue(gameResource.ClassName, out var buildings) 
+                ? buildings 
+                : Array.Empty<string>();
+
             var item = new ItemDto(
                 gameResource.ClassName,
                 gameResource.MDisplayName,
                 gameResource.MDescription.Replace("\r\n", ""),
                 gameResource.MForm,
-                gameResource.EnergyValue
+                gameResource.EnergyValue,
+                extractionBuildings
             );
 
             yield return item;
         }
     }
 
-    private static IEnumerable<ItemDto> GetItems(GameData data)
+    private static IEnumerable<ItemDto> GetItems(GameData data, Dictionary<string, string[]> itemToBuildingMapping)
     {
         foreach (var gameItem in data.GameItems.Values)
         {
+            var extractionBuildings = itemToBuildingMapping.TryGetValue(gameItem.ClassName, out var buildings) 
+                ? buildings 
+                : Array.Empty<string>();
+
             yield return new ItemDto(
                 gameItem.ClassName,
                 gameItem.MDisplayName,
                 gameItem.MDescription.Replace("\r\n", ""),
                 gameItem.MForm,
-                gameItem.EnergyValue
+                gameItem.EnergyValue,
+                extractionBuildings
             );
         }
     }

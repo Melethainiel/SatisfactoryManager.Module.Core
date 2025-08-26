@@ -5,4 +5,5 @@ public record ItemDto(
     string DisplayName,
     string? Description,
     string Form,
-    double? EnergyValue);
+    double? EnergyValue,
+    string[] ExtractionBuildings);

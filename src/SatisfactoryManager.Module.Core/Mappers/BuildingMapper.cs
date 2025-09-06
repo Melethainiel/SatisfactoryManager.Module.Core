@@ -15,6 +15,7 @@ public static class BuildingMapper
             generator.MPowerProduction,
             generator.MSupplementalLoadAmount,
             BuildingTypeDto.Generator,
+            null,
             generator.MFuel?.Select(f => f.ToDto())
                 .ToArray());
     }
@@ -29,6 +30,7 @@ public static class BuildingMapper
             null,
             null,
             BuildingTypeDto.Miner,
+            null,
             null);
     }
 
@@ -42,6 +44,7 @@ public static class BuildingMapper
             null,
             null,
             BuildingTypeDto.Constructor,
+            manufacturer.ProductionShardSlotSize,
             null);
     }
 

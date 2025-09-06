@@ -10,4 +10,5 @@ public record BuildingDto(
     double? EnergyProduction,
     double? SupplementalLoadAmount,
     BuildingTypeDto Type,
-    [property: YamlIgnore]FuelDto[]? Fuels);
+    int? ProductionShardSlotSize,
+    [property: YamlIgnore] FuelDto[]? Fuels);

@@ -36,46 +36,57 @@
   name: Refinery
   energyConsumption: 30
   type: Constructor
+  productionShardSlotSize: 2
 - className: Build_FoundryMk1_C
   name: Foundry
   energyConsumption: 16
   type: Constructor
+  productionShardSlotSize: 2
 - className: Build_Packager_C
   name: Packager
   energyConsumption: 10
   type: Constructor
+  productionShardSlotSize: 0
 - className: Build_ManufacturerMk1_C
   name: Manufacturer
   energyConsumption: 55
   type: Constructor
+  productionShardSlotSize: 4
 - className: Build_AssemblerMk1_C
   name: Assembler
   energyConsumption: 15
   type: Constructor
+  productionShardSlotSize: 2
 - className: Build_Blender_C
   name: Blender
   energyConsumption: 75
   type: Constructor
+  productionShardSlotSize: 4
 - className: Build_ConstructorMk1_C
   name: Constructor
   energyConsumption: 4
   type: Constructor
+  productionShardSlotSize: 1
 - className: Build_SmelterMk1_C
   name: Smelter
   energyConsumption: 4
   type: Constructor
+  productionShardSlotSize: 0
 - className: Build_QuantumEncoder_C
   name: Quantum Encoder
   energyConsumption: 2000
   type: Constructor
+  productionShardSlotSize: 4
 - className: Build_Converter_C
   name: Converter
   energyConsumption: 400
   type: Constructor
+  productionShardSlotSize: 2
 - className: Build_HadronCollider_C
   name: Particle Accelerator
   energyConsumption: 1500
   type: Constructor
+  productionShardSlotSize: 4
 - className: Build_OilPump_C
   name: Oil Extractor
   output: 120
